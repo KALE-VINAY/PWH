@@ -24,6 +24,8 @@
             text-align: center;
             padding: 20px;
         }
+
+
     </style>
 </head>
 <body>
@@ -31,14 +33,20 @@
 <div class="container mt-5">
     <h4>Boarders</h4>
     <div class="text-center mb-4">
-        <button class="btn btn-primary" onclick="showBlock('blockA')">Block A</button>
-        <button class="btn btn-secondary" onclick="showBlock('blockB')">Block B</button>
-    </div>
+    <button class="btn btn-primary" onclick="showBlock('wing1', this)">Wing 1</button>
+    <button class="btn btn-secondary" onclick="showBlock('wing2', this)">Wing 2</button>
+    <button class="btn btn-secondary" onclick="showBlock('wing3', this)">Wing 3</button>
+    <button class="btn btn-secondary" onclick="showBlock('wing4', this)">Wing 4</button>
+    <button class="btn btn-secondary" onclick="showBlock('wing5', this)">Wing 5</button>
+    <button class="btn btn-secondary" onclick="showBlock('wing6', this)">Wing 6</button>
+    <button class="btn btn-secondary" onclick="showBlock('dormitary', this)">DORMITORY/COMMON ROOM</button>
+</div>
+
 
     <div id="loading" class="loading">Fetching data, please wait...</div>
 
-    <div id="blockA" class="block-section">
-        <h2 class="text-center">Block A - Transit Men's Hostel</h2>
+    <div id="wing1" class="block-section">
+        <h2 class="text-center">Wing 1 - Boarders</h2>
         <table class="table table-bordered mt-4">
             <thead>
                 <tr>
@@ -50,8 +58,8 @@
             </thead>
             <tbody>
                 <?php
-                // Fetch data from block_a.csv
-                if (($handle = fopen("block_a.csv", "r")) !== FALSE) {
+                
+                if (($handle = fopen("wing1.csv", "r")) !== FALSE) {
                     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
                         echo "<tr>";
                         echo "<td>" . htmlspecialchars($data[0]) . "</td>";
@@ -67,8 +75,8 @@
         </table>
     </div>
 
-    <div id="blockB" class="block-section">
-        <h2 class="text-center">Block B - Boarders</h2>
+    <div id="wing2" class="block-section">
+        <h2 class="text-center">Wing 2 - Boarders</h2>
         <table class="table table-bordered mt-4">
             <thead>
                 <tr>
@@ -80,8 +88,8 @@
             </thead>
             <tbody>
                 <?php
-                // Fetch data from block_b.csv
-                if (($handle = fopen("block_b.csv", "r")) !== FALSE) {
+             
+                if (($handle = fopen("wing2.csv", "r")) !== FALSE) {
                     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
                         echo "<tr>";
                         echo "<td>" . htmlspecialchars($data[0]) . "</td>";
@@ -96,13 +104,192 @@
             </tbody>
         </table>
     </div>
+
+
+    <div id="wing3" class="block-section">
+        <h2 class="text-center">Wing 3 - Boarders</h2>
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>Sl. No</th>
+                    <th>Name</th>
+                    <th>Room No</th>
+                    <th>Roll No</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+           
+                if (($handle = fopen("wing3.csv", "r")) !== FALSE) {
+                    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+                        echo "<tr>";
+                        echo "<td>" . htmlspecialchars($data[0]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[1]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[2]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[3]) . "</td>";
+                        echo "</tr>";
+                    }
+                    fclose($handle);
+                }
+                ?>
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="wing4" class="block-section">
+        <h2 class="text-center">Wing 4 - Boarders</h2>
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>Sl. No</th>
+                    <th>Name</th>
+                    <th>Room No</th>
+                    <th>Roll No</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+              
+                if (($handle = fopen("wing4.csv", "r")) !== FALSE) {
+                    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+                        echo "<tr>";
+                        echo "<td>" . htmlspecialchars($data[0]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[1]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[2]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[3]) . "</td>";
+                        echo "</tr>";
+                    }
+                    fclose($handle);
+                }
+                ?>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div id="wing5" class="block-section">
+        <h2 class="text-center">Wing 5 - Boarders</h2>
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>Sl. No</th>
+                    <th>Name</th>
+                    <th>Room No</th>
+                    <th>Roll No</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+              
+                if (($handle = fopen("wing5.csv", "r")) !== FALSE) {
+                    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+                        echo "<tr>";
+                        echo "<td>" . htmlspecialchars($data[0]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[1]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[2]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[3]) . "</td>";
+                        echo "</tr>";
+                    }
+                    fclose($handle);
+                }
+                ?>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="wing6" class="block-section">
+        <h2 class="text-center">Wing 6 - Boarders</h2>
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>Sl. No</th>
+                    <th>Name</th>
+                    <th>Room No</th>
+                    <th>Roll No</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+              
+                if (($handle = fopen("wing6.csv", "r")) !== FALSE) {
+                    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+                        echo "<tr>";
+                        echo "<td>" . htmlspecialchars($data[0]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[1]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[2]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[3]) . "</td>";
+                        echo "</tr>";
+                    }
+                    fclose($handle);
+                }
+                ?>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="dormitary" class="block-section">
+        <h2 class="text-center">dormitary/common room - Boarders</h2>
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>Sl. No</th>
+                    <th>Name</th>
+                    <th>Room No</th>
+                    <th>Roll No</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+            
+                if (($handle = fopen("dormitary.csv", "r")) !== FALSE) {
+                    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+                        echo "<tr>";
+                        echo "<td>" . htmlspecialchars($data[0]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[1]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[2]) . "</td>";
+                        echo "<td>" . htmlspecialchars($data[3]) . "</td>";
+                        echo "</tr>";
+                    }
+                    fclose($handle);
+                }
+                ?>
+            </tbody>
+        </table>
+    </div>
+
+
+
+
 </div>
 
+
+
+
+
+
 <script>
-    function showBlock(block) {
+    function showBlock(block, button) {
         document.getElementById('loading').style.display = 'block';
-        document.getElementById('blockA').classList.remove('active');
-        document.getElementById('blockB').classList.remove('active');
+
+        // Remove 'active' class from all block sections
+        document.getElementById('wing1').classList.remove('active');
+        document.getElementById('wing2').classList.remove('active');
+        document.getElementById('wing3').classList.remove('active');
+        document.getElementById('wing4').classList.remove('active');
+        document.getElementById('wing5').classList.remove('active');
+        document.getElementById('wing6').classList.remove('active');
+        document.getElementById('dormitary').classList.remove('active');
+
+        // Change the button styles back to secondary (gray) for all buttons
+        var buttons = document.querySelectorAll('button');
+        buttons.forEach(btn => {
+            btn.classList.remove('btn-primary');
+            btn.classList.add('btn-secondary');
+        });
+
+        // Set the clicked button to blue (primary)
+        button.classList.remove('btn-secondary');
+        button.classList.add('btn-primary');
 
         setTimeout(() => {
             document.getElementById('loading').style.display = 'none';
@@ -110,6 +297,7 @@
         }, 1000);
     }
 </script>
+
 
 </body>
 </html>
