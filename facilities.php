@@ -56,7 +56,7 @@
 <?php include 'navbar.php'; ?>
     <!-- Container -->
     <div class="container">
-        <h4>Facilities Of Transit Men's Hostel-2</h4>
+        <h4>Facilities Of Prajyotika women's Hostel</h4>
         <div class="row">
             <div class="col-md-4">
                 <div class="facility-card">

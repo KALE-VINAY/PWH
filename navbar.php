@@ -10,16 +10,23 @@
             text-align: center;
             display: contents;
         }
+        /* .container_navbar img {
+            text-align: center;
+            display: contents;
+        } */
+
         .top-header {
             background-color: #f8f9fa;
             padding: 28px 0;
             text-align: center;
         }
         .top-header img {
-            height: 80px;
+            height: 100px;
             margin-right: 20px;
             margin-left: 20px;
-            border-radius: 100%;
+            border-radius: 0%;
+            object-fit: inherit;
+            
         }
         .navbar-brand {
             font-family: Poppins;
@@ -44,7 +51,7 @@
 
     <header class="top-header">
         <div class="container_navbar d-flex justify-content-center align-items-center">
-            <img src="logo/tmh2.png" alt="Logo">
+            <img src="logo\image.png" alt="Logo">
             <div>
                 <h1 class="navbar-brand">Prajyotika women's Hostel<br> Tezpur University</h1>
             </div>
@@ -66,7 +73,7 @@
                     <li class="nav-item"><a class="nav-link" href="boarders.php">Boarders</a></li>
                     <li class="nav-item"><a class="nav-link" href="achievement.php">Events & Achievements</a></li>
                     <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
         </div>

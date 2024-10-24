@@ -7,12 +7,10 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            background-color: #f0f4f3; /* Soft background to complement the dark green theme */
-        }
+       
 
         .container {
-            background-color: #f0f4f3; /* Adjusting background color for the container */
+            background-color: #eaf0ee /* Adjusting background color for the container */
         }
 
         .breadcrumb-section {
@@ -38,15 +36,15 @@
             align-items: center;
             margin-top: 20px;
             flex-wrap: wrap; /* Flex-wrap to ensure boxes stack on smaller screens */
+            
         }
 
         .info-box {
             background-color: white;
             margin-top: 50px;
-            margin-left:30px;
-            
+            margin-left: 30px;
             height: 200px;
-            max-width: 350px; /* Flexible width for responsiveness */
+            max-width: 350px;
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly enhanced shadow */
             border-radius: 10px; /* More rounded corners */
             text-align: center;
@@ -55,8 +53,16 @@
             justify-content: center;
             align-items: center;
             padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition */
         }
- 
+
+        .info-box:hover {
+            transform: scale(1.05); /* Slight scaling on hover */
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+
+
 
         .info-box img {
             width: 40px;

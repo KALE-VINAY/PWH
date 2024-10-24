@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transit Men's Hostel</title>
+    <title>Prajyotika women's Hostel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="home.css">
 </head>
 <body>
 
@@ -17,13 +17,13 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" style="width: 60%;">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image/c2.jpg" class="d-block w-100" alt="Image 1">
+                <img src="image\PWH_5.png" class="d-block w-100" alt="Image 1">
             </div>
             <div class="carousel-item">
-                <img src="image/c1.jpg" class="d-block w-100" alt="Image 2">
+                <img src="image\PWH_6.png" class="d-block w-100" alt="Image 2">
             </div>
             <div class="carousel-item">
-                <img src="image/c3.jpg" class="d-block w-100" alt="Image 3">
+                <img src="image\PWH_4.png" class="d-block w-100" alt="Image 3">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
@@ -107,7 +107,7 @@
         <!-- Main Content Section -->
         <div class="col-md-8">
             <div class="text-center mb-4">
-                <h4>What's Happening @ Transit Men's Hostel-2, Tezpur University</h4>
+                <h4>What's Happening @ Prajyotika women's Hostel, Tezpur University</h4>
                 <a href="#">Bulletin of Information 2024-25</a><br>
                 <a href="#">Online Fee Payment</a><br>
                 <a href="#">Terms and conditions for online fees payment</a>
@@ -163,7 +163,7 @@
         With a strong commitment to the well-being of its residents, Prajyotika Women's Hostel emphasizes cleanliness, security, and a supportive environment that nurtures personal and academic growth.
     </p>
     <div class="about-image-container">
-        <img src="image/c3.jpg" alt="Prajyotika Women's Hostel" class="about-image">
+        <img src="image\PWH_6.png" alt="Prajyotika Women's Hostel" class="about-image">
     </div>
 </div>
 
