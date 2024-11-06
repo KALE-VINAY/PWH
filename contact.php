@@ -1,3 +1,57 @@
+<?php
+// Include PHPMailer library
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
+
+// Check if form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $subject = htmlspecialchars($_POST['subject']);
+    $messageContent = htmlspecialchars($_POST['message']);
+
+    // Create a new PHPMailer instance
+    $mail = new PHPMailer(true);
+
+    try {
+        // SMTP server configuration
+        $mail->isSMTP();
+        $mail->Host = 'smtp.gmail.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'vinaykale321@gmail.com'; // Your Gmail address
+        $mail->Password = 'hede vnex kwka tbed'; // App password created for your Gmail account
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port = 587;
+
+        // Email content
+        $mail->setFrom($email, $name);
+        $mail->addAddress('vinaykale321@gmail.com', 'kale vinay'); // Owner's email and name
+        $mail->Subject = "Contact Form Submission: $subject";
+        
+        // Message body
+        $mail->Body = "Name: $name\n";
+        $mail->Body .= "Email: $email\n";
+        $mail->Body .= "Subject: $subject\n";
+        $mail->Body .= "Message:\n$messageContent\n";
+
+        // Send the email
+        if ($mail->send()) {
+            $successMessage = "Thank you for your message! We will get back to you soon.";
+        } else {
+            $errorMessage = "Oops! Something went wrong, and we couldn't send your message.";
+        }
+    } catch (Exception $e) {
+        $errorMessage = "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    }
+}
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -143,6 +197,11 @@
             height: 400px;
             border: 0;
         }
+         /* Style to fade out the message */
+         .fade-out {
+            opacity: 0;
+            transition: opacity 1s ease-out;
+        }
 
         @media (max-width: 768px) {
             .breadcrumb-section h2 {
@@ -152,10 +211,6 @@
             .info-section {
                 flex-direction: column; /* Stack info boxes vertically */
             }
-
-            /* .info-box {
-                width: 90%; /* Take up most of the screen width on small devices */
-            } */
 
             .contact-form {
                 padding: 20px;
@@ -171,9 +226,18 @@
             }
         }
     </style>
+   
 </head>
 <body>
 <?php include 'navbar.php'; ?>
+
+<?php if (isset($successMessage)): ?>
+    <div id="successMessage" class="alert alert-success"><?php echo $successMessage; ?></div>
+<?php elseif (isset($errorMessage)): ?>
+    <div id="dangerMessage" class="alert alert-danger"><?php echo $errorMessage; ?></div>
+<?php endif; ?>
+
+
 
 <div class="container">
     <!-- Breadcrumb and Heading -->
@@ -228,35 +292,35 @@
                 <h4>Write a message</h4>
                 <p>If you have any questions, please do not hesitate to send us a message. We reply within 24 hours!</p>
 
-                <form action="contact.php" method="POST">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="email">E-mail address:</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <label for="subject">Subject:</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send message</button>
-                </form>
+                <form action="" method="POST">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="col-md-6">
+                <label for="email">E-mail address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Send message</button>
+    </form>
 
                 <!-- Social media links
 
-                <!-- Social media links -->
+                Social media links -->
                 <div class="social-media-links">
                     <a href="#"><img src="image\facebook_icon.png" alt="Facebook"></a>
                     <a href="#"><img src="image\youtube_icon.png" alt="YouTube"></a>
@@ -269,7 +333,35 @@
     
 
 </div>
+<!-- JavaScript to hide the success message after 5 seconds -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const successMessage = document.getElementById("successMessage");
+        if (successMessage) {
+            setTimeout(() => {
+                successMessage.classList.add("fade-out");
+            }, 3000); // Start fade-out after 3 seconds
 
+            setTimeout(() => {
+                successMessage.style.display = "none";
+            }, 4000); // Completely hide after 4 seconds
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const dangerMessage = document.getElementById("dangerMessage");
+        if (dangerMessage) {
+            setTimeout(() => {
+                dangerMessage.classList.add("fade-out");
+            }, 3000); // Start fade-out after 3 seconds
+
+            setTimeout(() => {
+                dangerMessage.style.display = "none";
+            }, 4000); // Completely hide after 4 seconds
+        }
+    });
+
+</script>
 <!-- Bootstrap 5 JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
