@@ -272,24 +272,24 @@
     <div class="row">
         <div class="col-md-6">
             <div class="card-custom">
-                <div class="card-header-custom">ASISTANT PREFECT</div>
+                <div class="card-header-custom">ASSISTANT PREFECT</div>
                 <img src="image\Muskan_Borgohain.jpg" alt="Senior Warden">
                 <h5>Muskan Borgohain (MEB21013)</h5>
                 <p>Department of Mechanical Engineering, Tezpur University</p>
                 <div class="contact_details">
-                  <p>Phone: +919804173515</p>
+                  <p>Phone: +91 8486449330</p>
                   <p>Email: muskanborgohain2102@gmail.com</p>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="card-custom">
-                <div class="card-header-custom">ASISTANT PREFECT</div>
-                <img src="image\Shruti_Roy.jpg" alt="Warden">
+                <div class="card-header-custom">ASSISTANT PREFECT</div>
+                <img src="image\Shruti_Roy1.jpg" alt="Warden">
                 <h5>Shruti Roy</h5>
                 <p>Department of Electronics and Communication Engineering, Tezpur University</p>
                 <div class="contact_details">
-                  <p>Phone: +919804173515</p>
+                  <p>Phone:+91 9395607096</p>
                   <p>Email: royshruti631@gmail.com</p>
                 </div>
             </div>
@@ -297,12 +297,12 @@
 
         <div class="col-md-6">
             <div class="card-custom">
-                <div class="card-header-custom">ASISTANT PREFECT</div>
+                <div class="card-header-custom">ASSISTANT PREFECT</div>
                 <img src="image\Farhin_Inteza_Ahmed.jpg" alt="Warden">
                 <h5>Farhin Inteza Ahmed</h5>
                 <p>Department of Food Engineering and Technology, Tezpur University</p>
                 <div class="contact_details">
-                  <p>Phone: +919804173515</p>
+                  <p>Phone: +91 6001339402</p>
                   <p>Email: farhininteza@gmail.com</p>
                 </div>
             </div>
@@ -310,12 +310,12 @@
 
         <div class="col-md-6 ">
             <div class="card-custom">
-                <div class="card-header-custom">ASISTANT PREFECT</div>
+                <div class="card-header-custom">ASSISTANT PREFECT</div>
                 <img src="image\Amandiva_Bordoloi.jpg" alt="Warden">
                 <h5>Amandiva Priyam Bordoloi</h5>
                 <p>Department of Food Engineering and Technology, Tezpur University</p>
                 <div class="contact_details">
-                  <p>Phone: +919804173515</p>
+                  <p>Phone: +91 8486267939</p>
                   <p>Email: amandivabordoloi@gmail.com</p>
                 </div>
             </div>
@@ -339,7 +339,8 @@
                 <h5>Kasturi Kashyap (EGI21014)</h5>
                 <p>Department of English, Tezpur University</p>
                 <div class="contact_details">
-                  <p>Phone: +919804173515</p>
+                  <p>Phone: +919864965671
+                  </p>
                   <p>Email: kasturi8k@gmail.com</p>
                 </div>
             </div>
@@ -393,9 +394,9 @@
         <div class="col-md-6">
             <div class="card-custom">
                 <div class="card-header-custom">OFFICE STAFF</div>
-                <img src="image/c1.jpg" alt="Senior Warden">
-                <h5>Dr. Akash Ranjan</h5>
-                <p>Associate Professor<br>Department of Education, Tezpur University</p>
+                <img src="image/Poli_Sarkar.jpg" alt="Senior Warden">
+                <h5>Poli Sarkar</h5>
+                <p>Pragjyotika women's hostel<br>Tezpur University</p>
                 <div class="contact_details">
                   <p>Phone: +919804173515</p>
                   <p>Email: aranjan@tezu.ernet.in</p>
@@ -405,9 +406,9 @@
         <div class="col-md-6">
             <div class="card-custom">
                 <div class="card-header-custom">OFFICE STAFF</div>
-                <img src="image/c2.jpg" alt="Warden">
-                <h5>Dr. Biswajit Ghose</h5>
-                <p>Assistant Professor<br>Department of Commerce, Tezpur University</p>
+                <img src="image/Sangita_Devi.jpg" alt="Warden">
+                <h5>Sangita Devi</h5>
+                <p>Pragjyotika women's hostel<br>Tezpur University</p>
                 <div class="contact_details">
                   <p>Phone: +919804173515</p>
                   <p>Email: aranjan@tezu.ernet.in</p>

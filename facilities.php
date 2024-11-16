@@ -60,16 +60,25 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="facility-card">
-                    <img src="image/c1.jpg" alt="Facility 1">
+                    <img src="image/single_room.jpg" alt="Facility 1">
                     <div class="facility-card-body">
-                        <h5>Modern Gym</h5>
+                        <h5>single sharing room</h5>
                         <p>Our hostel features a modern gym equipped with the latest machines and equipment to help residents stay fit and healthy.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="facility-card">
-                    <img src="image/c2.jpg" alt="Facility 2">
+                    <img src="image/double_sharing_room.jpg" alt="Facility 1">
+                    <div class="facility-card-body">
+                        <h5>double sharing rooms</h5>
+                        <p>Our hostel features a modern gym equipped with the latest machines and equipment to help residents stay fit and healthy.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="facility-card">
+                    <img src="image/mess1.jpg" alt="Facility 2">
                     <div class="facility-card-body">
                         <h5>Spacious Dining Hall</h5>
                         <p>The dining hall is spacious, offering a variety of cuisines and ensuring hygiene and comfort for all residents.</p>
@@ -78,9 +87,28 @@
             </div>
             <div class="col-md-4">
                 <div class="facility-card">
-                    <img src="image/c3.jpg" alt="Facility 3">
+                    <img src="image/pantry.jpg" alt="Facility 2">
+                    <div class="facility-card-body">
+                        <h5>Spacious pantry</h5>
+                        <p>The dining hall is spacious, offering a variety of cuisines and ensuring hygiene and comfort for all residents.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="facility-card">
+                    <img src="image/wifi_facility.jpg" alt="Facility 3">
                     <div class="facility-card-body">
                         <h5>High-Speed Wi-Fi</h5>
+                        <p>Stay connected with our high-speed Wi-Fi available throughout the hostel premises, making it easy to study and stay in touch.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="facility-card">
+                    <img src="image/canteen.jpg" alt="Facility 3">
+                    <div class="facility-card-body">
+                        <h5>canteen</h5>
                         <p>Stay connected with our high-speed Wi-Fi available throughout the hostel premises, making it easy to study and stay in touch.</p>
                     </div>
                 </div>
@@ -90,7 +118,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="facility-card">
-                    <img src="image/c4.jpg" alt="Facility 4">
+                    <img src="image/CCTV2.jpg" alt="Facility 4">
                     <div class="facility-card-body">
                         <h5>24/7 Security</h5>
                         <p>Security is our top priority. The hostel is monitored by CCTV cameras and has 24/7 security personnel.</p>
@@ -99,16 +127,16 @@
             </div>
             <div class="col-md-4">
                 <div class="facility-card">
-                    <img src="image/c5.jpg" alt="Facility 5">
+                    <img src="image/cycle_stand2.jpg" alt="Facility 5">
                     <div class="facility-card-body">
-                        <h5>Recreational Area</h5>
+                        <h5>cycle stand</h5>
                         <p>Enjoy your leisure time in our recreational area, equipped with games, TV, and comfortable seating.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="facility-card">
-                    <img src="image/facility6.jpg" alt="Facility 6">
+                    <img src="image/laundry.jpg" alt="Facility 6">
                     <div class="facility-card-body">
                         <h5>Laundry Service</h5>
                         <p>We offer an on-site laundry service for residents, ensuring you always have clean clothes with minimal hassle.</p>
