@@ -27,7 +27,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about_us.php">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="adminstration.php">Adminstration</a></li>
                     <li class="nav-item"><a class="nav-link" href="facilities.php">Facilities</a></li>
                     <li class="nav-item"><a class="nav-link" href="boarders.php">Boarders</a></li>
