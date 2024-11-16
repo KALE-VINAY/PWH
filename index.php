@@ -19,6 +19,9 @@
             <div class="carousel-item active">
                 <img src="image\PWH_5.png" class="d-block w-100" alt="Image 1">
             </div>
+            <div class="carousel-item ">
+                <img src="image/awards1.jpg" class="d-block w-100" alt="Image 1">
+            </div>
             <div class="carousel-item">
                 <img src="image\PWH_6.png" class="d-block w-100" alt="Image 2">
             </div>
@@ -41,15 +44,23 @@
         <h3>Awards & Accolades</h3>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image/c1.jpg" class="d-block w-100" alt="Award 1">
+                <img src="image/awards4.jpg" class="d-block w-100" alt="Award 1">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Award Title 1</h5>
+                    <h5>Annual meet</h5>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="image/c2.jpg" class="d-block w-100" alt="Award 2">
+                <img src="image\awards3.jpg" class="d-block w-100" alt="Award 2">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Award Title 2</h5>
+                    <h5>award</h5>
+                    <!-- <h5>Pragjyotika Women's Hostel</h5> -->
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/miss_TU_2024.jpg" class="d-block w-100" alt="Award 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Miss TU </h5>
+                    <!-- <h5>Pragjyotika Women's Hostel</h5> -->
                 </div>
             </div>
             <div class="carousel-item">
@@ -179,8 +190,9 @@
                     <img src="image/c3.jpg" alt="Library" class="facility-card-img">
                     <div class="facility-card-label">Library</div>
                 </div>
+                
                 <div class="facility-card-back">
-                    <a href="#" class="facility-read-more">Read More</a>
+                    <a  href="facilities.php" class="facility-read-more">Read More</a>
                 </div>
             </div>
         </div>
@@ -191,7 +203,7 @@
                     <div class="facility-card-label">Library</div>
                 </div>
                 <div class="facility-card-back">
-                    <a href="#" class="facility-read-more">Read More</a>
+                    <a  href="facilities.php" class="facility-read-more">Read More</a>
                 </div>
             </div>
         </div>
@@ -202,7 +214,7 @@
                     <div class="facility-card-label">Library</div>
                 </div>
                 <div class="facility-card-back">
-                    <a href="#" class="facility-read-more">Read More</a>
+                    <a  href="facilities.php" class="facility-read-more">Read More</a>
                 </div>
             </div>
         </div>
@@ -213,7 +225,7 @@
                     <div class="facility-card-label">Library</div>
                 </div>
                 <div class="facility-card-back">
-                    <a href="#" class="facility-read-more">Read More</a>
+                    <a  href="facilities.php" class="facility-read-more">Read More</a>
                 </div>
             </div>
         </div>
