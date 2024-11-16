@@ -6,13 +6,10 @@
     <title>Achievements</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .card{
+        .card {
             margin-top: 28px;
         }
-        .container h2{
+        .container h2 {
             background-image: url("image/c2.jpg");
             color: white;
             margin-bottom: 20px;
@@ -20,8 +17,25 @@
             padding: 10px;
             text-align: center;
         }
-        .nav-pills .nav-link.active {
+        .nav-pills .nav-link-achievements {
+            display: inline-block;
+            color: #fff;
+            background-color: #0066cc;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 20px;
+            font-size: 16px;
+            margin: 0 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .nav-pills .nav-link-achievements:hover {
+            background-color: #004b99;
+        }
+        .nav-pills .nav-link-achievements.active {
             background-color: #002855;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .card-custom {
             border: none;
@@ -60,13 +74,13 @@
     <!-- Year Selection Navigation -->
     <ul class="nav nav-pills justify-content-center year-section">
         <li class="nav-item">
-            <a class="nav-link active" href="#" data-year="2024">2024</a>
+            <a class="nav-link-achievements active" href="#" data-year="2024">2024</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" data-year="2023">2023</a>
+            <a class="nav-link-achievements" href="#" data-year="2023">2023</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" data-year="2022">2022</a>
+            <a class="nav-link-achievements" href="#" data-year="2022">2022</a>
         </li>
     </ul>
 
@@ -138,10 +152,10 @@
 </div>
 
 <script>
-    document.querySelectorAll('.nav-link').forEach(function(link) {
+    document.querySelectorAll('.nav-link-achievements').forEach(function(link) {
         link.addEventListener('click', function(e) {
             e.preventDefault();
-            document.querySelector('.nav-link.active').classList.remove('active');
+            document.querySelector('.nav-link-achievements.active').classList.remove('active');
             this.classList.add('active');
             
             const selectedYear = this.getAttribute('data-year');

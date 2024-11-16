@@ -45,27 +45,27 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="image/awards4.jpg" class="d-block w-100" alt="Award 1">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                     <h5>Annual meet</h5>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="image\awards3.jpg" class="d-block w-100" alt="Award 2">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-md-block">
                     <h5>award</h5>
                     <!-- <h5>Pragjyotika Women's Hostel</h5> -->
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="image/miss_TU_2024.jpg" class="d-block w-100" alt="Award 2">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                     <h5>Miss TU </h5>
                     <!-- <h5>Pragjyotika Women's Hostel</h5> -->
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="image/c3.jpg" class="d-block w-100" alt="Award 3">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption  d-md-block">
                     <h5>Award Title 3</h5>
                 </div>
             </div>
@@ -119,9 +119,9 @@
         <div class="col-md-8">
             <div class="text-center mb-4">
                 <h4>What's Happening @ Prajyotika women's Hostel, Tezpur University</h4>
-               <h1>সকলোতকৈ জিলিকা </h1>
-                   <h1> আমাৰ প্ৰাগজ্যোতিকা ।
-                    </h1>
+                  <div class="salogon">
+                     <h1>সকলোতকৈ জিলিকা <br>আমাৰ প্ৰাগজ্যোতিকা । </h1>
+                   </div>     
             </div>
             <div class="row">
                 <div class="col-md-4">
@@ -175,6 +175,11 @@
     </p>
     <div class="about-image-container">
         <img src="image\PWH_6.png" alt="Prajyotika Women's Hostel" class="about-image">
+        <div class="quote-card">
+            <h1>Quote of the Day</h1>
+            <div class="quote">“ ”</div>
+            <div class="author">—</div>
+        </div>
     </div>
 </div>
 

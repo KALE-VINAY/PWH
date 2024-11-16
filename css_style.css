@@ -60,7 +60,9 @@
         }
         @media (max-width: 768px) {
             .main-container {
-                display: block; /* Stacks elements vertically */
+                display: flex;
+                flex-direction: column;
+                gap: 42px;
             }
             #awardsCarousel {
                 padding: 10px;
@@ -168,6 +170,11 @@
     background: #e9e5e5;
     padding: 20px;
 }
+.salogon{
+    background: black;
+    color: white;
+    border-radius: 100%;
+}
 
 .stat-item {
     background-color: #00674F;
@@ -193,8 +200,13 @@
     margin: 0;
 }
 
-
-
+@media screen and (max-width: 770px) {
+    .stats-section{
+        gap: 20px;
+    }
+  }
+  
+/* About section */
 
 .about-section {
     padding: 40px 20px;
@@ -204,7 +216,7 @@
     font-size: 36px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    color: #00674F;
+    color: #00674f;
     margin-bottom: 20px;
 }
 .about-content {
@@ -216,20 +228,84 @@
 }
 .about-image-container {
     text-align: center;
-   
+    display: flex;
+    justify-content: center;
+    gap: 10%;
     
 }
+@media screen and (max-width: 480px) {
+    .about-image-container {
+        flex-direction: column;
+        justify-content: center;
+        
+        gap: 5%;
+        
+    }
+
+  }
+
+
+.quote-card {
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(to right, #06beb6, #196a4a);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 550px) {
+    .quote-card {
+        width: 200px;
+        height: 150px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+   
+  }
+
+  .quote-card h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .quote {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .author {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+  }
+
 /* .about-image-container img {
     object-fit: inherit;
 } */
 .about-image {
-    width: 50%;
-    height: 400px;
+    width: 30%;
+    height: 300px;
     /* max-width: 600px; */
     border-radius: 15px;
     object-fit: inherit;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+@media screen and (max-width: 480px) {
+    .about-image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+  }
 .about-image:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);

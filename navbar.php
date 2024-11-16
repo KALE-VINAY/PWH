@@ -5,47 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prajyotika women's Hostel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .container_navbar{
-            text-align: center;
-            display: contents;
-        }
-        /* .container_navbar img {
-            text-align: center;
-            display: contents;
-        } */
-
-        .top-header {
-            background-color: #f8f9fa;
-            padding: 28px 0;
-            text-align: center;
-        }
-        .top-header img {
-            height: 100px;
-            margin-right: 20px;
-            margin-left: 20px;
-            border-radius: 0%;
-            object-fit: inherit;
-            
-        }
-        .navbar-brand {
-            font-family: Poppins;
-            font-size: 28px;
-            font-weight: bold;
-        }
-        .navbar {
-            margin-top: 10px;
-            background: #00674F; 
-        }
-        .navbar-nav{
-            gap: 28px;
-        }
-        .navbar-nav .nav-link {
-            color: #fff !important;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
 
@@ -79,6 +39,5 @@
         </div>
     </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
