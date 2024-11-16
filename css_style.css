@@ -165,21 +165,26 @@
     color: white;
     padding: 10px;
 }
+.img-fluid{
+    margin-bottom: 10px;
+}
 
 .stats-section {
     background: #e9e5e5;
     padding: 20px;
 }
 .salogon{
-    background: black;
+    background: linear-gradient(to right, #dcc31b, #196a4a);
     color: white;
     border-radius: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .stat-item {
     background-color: #00674F;
     color: white;
-    border-radius: 50%;
+    border-radius: 50%; 
     padding: 40px 10px;
     text-align: center;
     width: 150px;
@@ -222,10 +227,11 @@
 .about-content {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    line-height: 1.8;
-    color: #555;
+    line-height:1.8;
+    color: #00674f;
     margin-bottom: 30px;
 }
+
 .about-image-container {
     text-align: center;
     display: flex;
@@ -233,7 +239,7 @@
     gap: 10%;
     
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
     .about-image-container {
         flex-direction: column;
         justify-content: center;
@@ -246,7 +252,7 @@
 
 
 .quote-card {
-    width: 400px;
+    width: 30%;
     height: 300px;
     background: linear-gradient(to right, #06beb6, #196a4a);
     border-radius: 10px;
@@ -257,13 +263,20 @@
     justify-content: space-between;
     padding: 20px;
     box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
+
+  .quote-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
   @media screen and (max-width: 550px) {
     .quote-card {
-        width: 200px;
+        width:100%;
         height: 150px;
     }
-
+    
     .navbar-brand {
         font-size: 18px;
     }
@@ -292,17 +305,17 @@
     object-fit: inherit;
 } */
 .about-image {
-    width: 30%;
+    width: 40%;
     height: 300px;
     /* max-width: 600px; */
     border-radius: 15px;
     object-fit: inherit;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
     .about-image {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
     }
 
   }

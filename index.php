@@ -177,8 +177,8 @@
         <img src="image\PWH_6.png" alt="Prajyotika Women's Hostel" class="about-image">
         <div class="quote-card">
             <h1>Quote of the Day</h1>
-            <div class="quote">“ ”</div>
-            <div class="author">—</div>
+            <div class="quote"><h5>“A hostel is more than just a place to stay; it's where friendships blossom, memories are made, and dreams take flight. ”</h5></div>
+            <div class="author"><h5>— Anonymous</h5></div>
         </div>
     </div>
 </div>
