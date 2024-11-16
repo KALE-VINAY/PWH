@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prajyotika women's Hostel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="home.css">
+   <link rel="stylesheet" href="css_style.css">
 </head>
 <body>
 
 <!-- Navbar -->
 <?php include 'navbar.php'; ?>
 
-<div style="display: flex; justify-content: space-between; width: 100%;">
+<div class="main-container" >
     <!-- Image Carousel (60% width) -->
-    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" style="width: 60%;">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" >
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="image\PWH_5.png" class="d-block w-100" alt="Image 1">
@@ -40,7 +40,7 @@
     </div>
 
     <!-- Awards & Accolades (30% width) -->
-    <div id="awardsCarousel" class="carousel slide" data-bs-ride="carousel" style="width: 30%;">
+    <div id="awardsCarousel" class="carousel slide" data-bs-ride="carousel" >
         <h3>Awards & Accolades</h3>
         <div class="carousel-inner">
             <div class="carousel-item active">

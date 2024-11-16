@@ -9,6 +9,13 @@
             justify-content: space-between;
             width: 100%;
         }
+        #imageCarousel {
+            width: 60%;
+        }
+        
+        #awardsCarousel {
+            width: 30%;
+        }
         .carousel img {
             height: 550px;
             color: #000;
@@ -55,12 +62,22 @@
             .main-container {
                 display: block; /* Stacks elements vertically */
             }
-            
+            #awardsCarousel {
+                padding: 10px;
+                margin: 20px;
+                border: 2px solid #000;
+               
+            }
+
             #imageCarousel,
             #awardsCarousel {
                 width: 100%; /* Full width for stacked layout */
-                margin-bottom: 20px; /* Space between elements */
+                margin-bottom: 20px;
+                margin: 0 auto;
+                align-items: center;
+                display: block; /* Space between elements */
             }
+           
 
         }
         /* news section */

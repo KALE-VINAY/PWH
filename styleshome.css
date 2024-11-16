@@ -4,11 +4,6 @@
         .navbar {
             background-color: #343a40;
         } */
-        .main-container {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-        }
         .carousel img {
             height: 550px;
             color: #000;
@@ -50,18 +45,6 @@
             margin: 20px;
             border: 2px solid #000;
             display: block;
-        }
-        @media (max-width: 768px) {
-            .main-container {
-                display: block; /* Stacks elements vertically */
-            }
-            
-            #imageCarousel,
-            #awardsCarousel {
-                width: 100%; /* Full width for stacked layout */
-                margin-bottom: 20px; /* Space between elements */
-            }
-
         }
         /* news section */
 
