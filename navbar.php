@@ -51,7 +51,7 @@
 
     <header class="top-header">
         <div class="container_navbar d-flex justify-content-center align-items-center">
-            <img src="logo\image.png" alt="Logo">
+            <img src="logo/PWH_logo.png" alt="Logo">
             <div>
                 <h1 class="navbar-brand">Prajyotika women's Hostel<br> Tezpur University</h1>
             </div>

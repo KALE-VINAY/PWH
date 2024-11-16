@@ -108,9 +108,9 @@
         <div class="col-md-8">
             <div class="text-center mb-4">
                 <h4>What's Happening @ Prajyotika women's Hostel, Tezpur University</h4>
-                <a href="#">Bulletin of Information 2024-25</a><br>
-                <a href="#">Online Fee Payment</a><br>
-                <a href="#">Terms and conditions for online fees payment</a>
+               <h1>সকলোতকৈ জিলিকা </h1>
+                   <h1> আমাৰ প্ৰাগজ্যোতিকা ।
+                    </h1>
             </div>
             <div class="row">
                 <div class="col-md-4">
