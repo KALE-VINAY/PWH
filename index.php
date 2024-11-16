@@ -12,7 +12,7 @@
 <!-- Navbar -->
 <?php include 'navbar.php'; ?>
 
-<div class="main-container" >
+<div class="main-container " >
     <!-- Image Carousel (60% width) -->
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" >
         <div class="carousel-inner">
@@ -278,14 +278,7 @@
         </a>
     </div>
 </div>
-<!-- Hostel Tour Section -->
-<div class="hostel-tour-section text-center">
-    <h2>Hostel Tour</h2>
-    <p>Take a virtual tour of our hostel facilities and get a glimpse of the comfortable living spaces we offer.</p>
-    <div class="video-container">
-    <iframe width="560" height="200" src="https://www.youtube.com/embed/KnTtqdUsSWg?si=nVhbczIxpOspbUjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-</div>
+
 
 <!-- Footer -->
 
