@@ -65,14 +65,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <style>
        
 
-        .container {
-            background-color: #eaf0ee /* Adjusting background color for the container */
-        }
-
-        .breadcrumb-section {
-            padding: 20px;
+        
+        .main_background{
             background-color: #eaf0ee; /* Light greenish-gray background */
         }
+        
 
         .breadcrumb-section h2 {
             color: #00674F; /* Updated to match the desired green color */
@@ -231,6 +228,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
 </head>
 <body>
+    <div class="main_background">
 <?php include 'navbar.php'; ?>
 
 <?php if (isset($successMessage)): ?>
@@ -268,7 +266,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="info-box">
                 <img src="image/email_icon.png" alt="Email Icon">
                 <h5>Have any questions?</h5>
-                <p><a href="mailto:director@lic.du.ac.in">director@tezu.ac.in</a></p>
+                <p><a href="mailto:director@lic.du.ac.in">pwh.tezu@gmail.com</a></p>
             </div>
         </div>
         <div class="col-md-4">
@@ -364,7 +362,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     });
 
 </script>
+
+<!-- Footer -->
+<?php include 'bottom_nav.php'; ?>
+
 <!-- Bootstrap 5 JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</div>
 </body>
 </html>

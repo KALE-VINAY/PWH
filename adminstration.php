@@ -83,24 +83,54 @@
             text-align: center;
         }
 
+           
         .nav-tabs-custom button {
-            background-color: #f39422;
+            background-color: #00674F;
             color: white;
             border: none;
-            margin: 0 10px;
-            padding: 10px 20px;
-            border-radius: 5px;
+            margin: 5px;
+            padding: 12px 24px;
+            border-radius: 8px;
             cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .nav-tabs-custom button.active {
-            background-color: #343a40;
+            background-color: #004d3d;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         .nav-tabs-custom button:hover {
-            background-color: #343a40;
+            background-color: #004d3d;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
+        /* Add responsive styles for buttons */
+        @media (max-width: 768px) {
+            .nav-tabs-custom button {
+                padding: 10px 16px;
+                font-size: 14px;
+                margin: 3px;
+                width: calc(50% - 6px); /* Makes buttons take up half width minus margins */
+            }
+            
+            .nav-tabs-custom {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .nav-tabs-custom button {
+                width: calc(100% - 6px); /* Makes buttons full width minus margins */
+                margin: 3px;
+            }
+        }
 
         /* .nav-tabs-custom button:hover {
             background-color: #004c3a;

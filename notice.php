@@ -21,7 +21,7 @@
         }
 
         .container {
-            width: 90%;
+            width: 100%;
             margin: auto;
             overflow: hidden;
         }
@@ -61,52 +61,14 @@
             font-size: 1em;
         }
 
-        footer {
-            background-color: #002147;
-            color: white;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-
-        .footer-section {
-            margin: 10px;
-            flex: 1;
-            min-width: 200px;
-        }
-
-        .footer-section h2 {
-            border-bottom: 2px solid white;
-            margin-bottom: 10px;
-            padding-bottom: 5px;
-        }
-
-        .footer-section ul {
-            list-style: none;
-        }
-
-        .footer-section ul li {
-            margin: 10px 0;
-        }
-
-        .footer-section ul li a {
-            text-decoration: none;
-            color: white;
-            font-size: 0.9em;
-        }
-
-        .social-icons a img {
-            width: 25px;
-            margin: 5px;
-        }
     </style>
 </head>
 <body>
-        <!-- Navbar -->
-    <?php include 'navbar.php'; ?>
-    
+    <!-- Navbar -->
+<?php include 'navbar.php'; ?>
+
     <div class="container">
+            
         <div class="notice-section">
             <h1>Notice</h1>
             <div class="notice-item">
@@ -126,8 +88,9 @@
                 <button class="view-btn">View</button>
             </div>
         </div>
- <!-- Footer -->
-<?php include 'bottom_nav.php'; ?>
+ 
     </div>
+    <!-- Footer -->
+<?php include 'bottom_nav.php'; ?>
 </body>
 </html>

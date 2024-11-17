@@ -98,6 +98,53 @@
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
+        
+        .salogon {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .salogon h1 {
+            font-size: 2.5rem;
+            line-height: 1.4;
+            color: #2E8B57; /* Using your primary green color */
+        }
+
+        /* Media queries for responsiveness */
+        @media (max-width: 1200px) {
+            .salogon h1 {
+                font-size: 2.2rem;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .salogon h1 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .salogon h1 {
+                font-size: 1.8rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .salogon h1 {
+                font-size: 1.5rem;
+                line-height: 1.3;
+            }
+            
+            .salogon {
+                margin: 15px 0;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .salogon h1 {
+                font-size: 1.3rem;
+            }
+        }
     </style>
 </head>
 <body>

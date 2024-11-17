@@ -21,11 +21,18 @@
         }
         .active {
             display: block;
+            
         }
         .loading {
+            height:500px;
             text-align: center;
             padding: 20px;
             display: none;
+        }
+        .active-btn {
+            background-color: #00674F !important;
+            color: white !important;
+            border-color: #00674F !important;
         }
     </style>
 </head>
@@ -83,7 +90,6 @@
     </div>
     <?php } ?>
 </div>
-
 <script>
     function showBlock(block, button) {
         // Show loading indicator
@@ -93,16 +99,16 @@
         const sections = document.querySelectorAll('.block-section');
         sections.forEach(section => section.classList.remove('active'));
 
-        // Reset all buttons to secondary
+        // Reset all buttons to secondary and remove active-btn
         const buttons = document.querySelectorAll('.btn');
         buttons.forEach(btn => {
-            btn.classList.remove('btn-primary');
+            btn.classList.remove('btn-primary', 'active-btn');
             btn.classList.add('btn-secondary');
         });
 
-        // Highlight the clicked button
+        // Highlight the clicked button with active-btn class
         button.classList.remove('btn-secondary');
-        button.classList.add('btn-primary');
+        button.classList.add('btn-primary', 'active-btn');
 
         // Show the selected block after loading delay
         setTimeout(() => {
@@ -110,14 +116,24 @@
             document.getElementById(block).classList.add('active');
         }, 1000);
     }
-     // Ensure Wing 1 is displayed by default
-     document.addEventListener("DOMContentLoaded", () => {
-        document.getElementById('wing1').classList.add('active'); // Show Wing 1 block
+
+    // Ensure Wing 1 is displayed by default
+    document.addEventListener("DOMContentLoaded", () => {
+        // Show Wing 1 block by default
+        document.getElementById('wing1').classList.add('active'); // Show Wing 1 content
         document.getElementById('loading').style.display = 'none'; // Hide loading indicator
-        document.getElementById('btn-wing1').classList.remove('btn-secondary'); // Style Wing 1 button
-        document.getElementById('btn-wing1').classList.add('btn-primary'); 
+
+        // Highlight the Wing 1 button
+        const wing1Button = document.querySelector('button[onclick="showBlock(\'wing1\', this)"]');
+        if (wing1Button) {
+            wing1Button.classList.remove('btn-secondary');
+            wing1Button.classList.add('btn-primary', 'active-btn');
+        }
     });
 </script>
+
+<!-- Footer -->
+<?php include 'bottom_nav.php'; ?>
 
 </body>
 </html>
