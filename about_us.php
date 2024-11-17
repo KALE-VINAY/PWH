@@ -20,7 +20,7 @@
         .hero-section {
             background: linear-gradient(rgba(46, 139, 87, 0.9), rgba(46, 139, 87, 0.8)),
                         url('image/PWH_6.png') center/cover;
-            height: 20vh;
+            height: 30vh;
             color: white;
             margin-top:20px;
         }
@@ -103,7 +103,7 @@
     <!-- Hero Section -->
     <div class="hero-section d-flex align-items-center justify-content-center text-center">
         <div class="container">
-            <h1 class="display-3 fw-bold mb-4">Welcome to Pragjyotika</h1>
+            <h6 class="display-3 fw-bold mb-4">Welcome to Pragjyotika</h6>
             <p class="lead">Where the first rays of light illuminate paths to excellence</p>
         </div>
     </div>
@@ -239,7 +239,7 @@
             </div>
         </div>
     </section>
-
+    <?php include 'bottom_nav.php'; ?>
     <!-- Bootstrap JS and Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

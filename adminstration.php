@@ -48,7 +48,11 @@
             font-size: 1.2rem;
             border-radius: 10px 10px 0 0;
         }
-
+        .card-header-custom h6{
+            font-family: emoji;
+            margin-top: 5px; 
+        }
+        
         .card-body-custom {
             background-color: white;
             color: #333;
@@ -224,8 +228,8 @@
                 </tbody>
             </table>
         </div>
-          <!-- Former Senior Wardens -->
-          <h3>Former Senior Wardens</h3>
+          <!-- Former  Wardens -->
+          <h3>Former Wardens</h3>
         <div class="table-responsive">
             <table class="table table-bordered">
                 <thead>
@@ -239,20 +243,14 @@
                 <tbody>
                     <tr>
                         <td><img src="image/fw1.jpg" alt="Former Warden 1"></td>
-                        <td>Dr. Junali Deka</td>
-                        <td>Department of History</td>
+                        <td>Dr. Pamidi Hagjer</td>
+                        <td>Department of Sociology</td>
                         <td>2019-2021</td>
                     </tr>
                     <tr>
-                        <td><img src="image/fw2.jpg" alt="Former Warden 2"></td>
-                        <td>Juri Dutta</td>
-                        <td>Department of Physics</td>
-                        <td>2019-2020</td>
-                    </tr>
-                    <tr>
                         <td><img src="image/fw3.jpg" alt="Former Warden 3"></td>
-                        <td>Dr. Sanghamitra Nath</td>
-                        <td>Department of Chemistry</td>
+                        <td>Juri Dutta</td>
+                        <td>Department of </td>
                         <td>2017-2019</td>
                     </tr>
                 </tbody>
@@ -272,10 +270,13 @@
     <div class="row">
         <div class="col-md-6">
             <div class="card-custom">
-                <div class="card-header-custom">ASSISTANT PREFECT</div>
+                <div class="card-header-custom">ASSISTANT PREFECT
+                    <h6>(General Administration)</h6>
+                </div>
                 <img src="image\Muskan_Borgohain.jpg" alt="Senior Warden">
                 <h5>Muskan Borgohain (MEB21013)</h5>
                 <p>Department of Mechanical Engineering, Tezpur University</p>
+                
                 <div class="contact_details">
                   <p>Phone: +91 8486449330</p>
                   <p>Email: muskanborgohain2102@gmail.com</p>
@@ -284,10 +285,12 @@
         </div>
         <div class="col-md-6">
             <div class="card-custom">
-                <div class="card-header-custom">ASSISTANT PREFECT</div>
+                <div class="card-header-custom">ASSISTANT PREFECT
+                     <h6>(Discipline and Maintenance)</h6>
+                </div>
                 <img src="image\Shruti_Roy1.jpg" alt="Warden">
                 <h5>Shruti Roy</h5>
-                <p>Department of Electronics and Communication Engineering, Tezpur University</p>
+                <p>Department of ECE, Tezpur University</p>
                 <div class="contact_details">
                   <p>Phone:+91 9395607096</p>
                   <p>Email: royshruti631@gmail.com</p>
@@ -297,10 +300,12 @@
 
         <div class="col-md-6">
             <div class="card-custom">
-                <div class="card-header-custom">ASSISTANT PREFECT</div>
+                <div class="card-header-custom">ASSISTANT PREFECT
+                 <h6>(Finance and Audit)</h6>
+                </div>
                 <img src="image\Farhin_Inteza_Ahmed.jpg" alt="Warden">
                 <h5>Farhin Inteza Ahmed</h5>
-                <p>Department of Food Engineering and Technology, Tezpur University</p>
+                <p>Department of FET, Tezpur University</p>
                 <div class="contact_details">
                   <p>Phone: +91 6001339402</p>
                   <p>Email: farhininteza@gmail.com</p>
@@ -310,10 +315,12 @@
 
         <div class="col-md-6 ">
             <div class="card-custom">
-                <div class="card-header-custom">ASSISTANT PREFECT</div>
+                <div class="card-header-custom">ASSISTANT PREFECT
+                  <h6>(Mess Operations)</h6>
+                </div>
                 <img src="image\Amandiva_Bordoloi.jpg" alt="Warden">
                 <h5>Amandiva Priyam Bordoloi</h5>
-                <p>Department of Food Engineering and Technology, Tezpur University</p>
+                <p>Department of FET, Tezpur University</p>
                 <div class="contact_details">
                   <p>Phone: +91 8486267939</p>
                   <p>Email: amandivabordoloi@gmail.com</p>
@@ -362,21 +369,21 @@
             <tbody>
                 <tr>
                     <td><img src="image/fw1.jpg" alt="Former Warden 1" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
-                    <td>Dr. Junali Deka </td>
-                    <td>Department of History</td>
-                    <td>2019-2021</td>
+                    <td>Vaishanavi Singh </td>
+                    <td>Department of Commerce</td>
+                    <td>2023-2024</td>
                 </tr>
                 <tr>
                     <td><img src="image/fw2.jpg" alt="Former Warden 2" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
-                    <td>Juri Dutta </td>
-                    <td>Department of Physics</td>
-                    <td>2019-2020</td>
+                    <td>Hrishitaa Chetia</td>
+                    <td>Department of </td>
+                    <td>2012-2023</td>
                 </tr>
                 <tr>
                     <td><img src="image/fw3.jpg" alt="Former Warden 3" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
-                    <td>Dr. Sanghamitra Nath </td>
-                    <td>Department of Chemistry</td>
-                    <td>2017-2019</td>
+                    <td>Sanobar Arafat </td>
+                    <td>Department of </td>
+                    <td>2021-2022</td>
                 </tr>
             </tbody>
         </table>
@@ -399,7 +406,7 @@
                 <p>Pragjyotika women's hostel<br>Tezpur University</p>
                 <div class="contact_details">
                   <p>Phone: +919804173515</p>
-                  <p>Email: aranjan@tezu.ernet.in</p>
+                  <p>Email: abc@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -411,7 +418,7 @@
                 <p>Pragjyotika women's hostel<br>Tezpur University</p>
                 <div class="contact_details">
                   <p>Phone: +919804173515</p>
-                  <p>Email: aranjan@tezu.ernet.in</p>
+                  <p>Email: abc@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -425,7 +432,7 @@
     <div class="row">
         <div class="col-md-6">
             <div class="card-custom">
-                <div class="card-header-custom">HOSTEL ADMIN</div>
+                <div class="card-header-custom">Web Master</div>
                 <img src="image/c1.jpg" alt="Senior Warden">
                 <h5>Dr. Akash Ranjan</h5>
                 <p>Associate Professor<br>Department of Education, Tezpur University</p>
@@ -452,6 +459,7 @@
 
      
 </div>
+<?php include 'bottom_nav.php'; ?>
 
 <script>
     const tabButtons = document.querySelectorAll('.tab-btn');

@@ -6,7 +6,7 @@
     <title>Footer Navbar</title>
     <style>
         .footer {
-            background-color: #F8F8EA;
+            background-color: #ceecd0;
             color: black;
             padding: 20px ;
         }

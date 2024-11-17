@@ -47,6 +47,7 @@
                 <img src="image/awards4.jpg" class="d-block w-100" alt="Award 1">
                 <div class="carousel-caption  d-md-block">
                     <h5>Annual meet</h5>
+                    <h6>2022</h6>
                 </div>
             </div>
             <div class="carousel-item">
@@ -60,13 +61,8 @@
                 <img src="image/miss_TU_2024.jpg" class="d-block w-100" alt="Award 2">
                 <div class="carousel-caption  d-md-block">
                     <h5>Miss TU </h5>
+                    <h6>Dikshita Konwar(MCJ)</h6>
                     <!-- <h5>Pragjyotika Women's Hostel</h5> -->
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="image/c3.jpg" class="d-block w-100" alt="Award 3">
-                <div class="carousel-caption  d-md-block">
-                    <h5>Award Title 3</h5>
                 </div>
             </div>
         </div>
@@ -83,7 +79,7 @@
 
 <!-- Content Section -->
 <div class="container my-5">
-    <div class="row align-items-center">
+    <div class="row">
         <!-- Latest News Section -->
         <div class="col-md-4">
             <div class="latest-news">
@@ -240,43 +236,12 @@
 
 
 <!-- Testimonial Section -->
-<div class="testimonial-section">
-    <div id="residentCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <h2>Boarders Experience</h2>
-            <!-- First Carousel Item -->
-            <div class="carousel-item active">
-                <div class="carousel-caption">
-                    <p>“Staying at TAPMI's hostel is an unforgettable experience. The facilities are top-notch, providing a comfortable and conducive environment for both studying and relaxation. The hostel staff were friendly and accommodating, ensuring a hassle-free stay.”</p>
-                    <div class="stars">
-                        <span>★ ★ ★ ★ ★</span>
-                    </div>
-                    <img src="https://via.placeholder.com/80" alt="Ravi Sahu" class="profile-img">
-                    <h6>Mr Ravi Sahu, Resident</h6>
-                </div>
-            </div>
-            <!-- Second Carousel Item -->
-            <div class="carousel-item">
-                <div class="carousel-caption">
-                    <p>“Living at the hostel was a fantastic experience. The environment was perfect for both academic pursuits and personal growth. The hostel facilities were excellent, and the staff made me feel at home.”</p>
-                    <div class="stars">
-                        <span>★ ★ ★ ★ ★</span>
-                    </div>
-                    <img src="https://via.placeholder.com/80" alt="John Doe" class="profile-img">
-                    <h6>Mr John Doe, Resident</h6>
-                </div>
-            </div>
-        </div>
-        <!-- Carousel Controls -->
-        <a class="carousel-control-prev" href="#residentCarousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#residentCarousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
-    </div>
+<!-- Hostel Tour Section -->
+<div class="hostel-tour-section text-center">
+    <h2>Hostel Tour</h2>
+    <p>Take a virtual tour of our hostel facilities and get a glimpse of the comfortable living spaces we offer.</p>
+    <div class="video-container">
+    <iframe width="500" height="250" src="https://www.youtube.com/embed/zN7i-YXf5Dc?si=_cjF3JWK4SGs9OEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
 </div>
 
 
