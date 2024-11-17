@@ -64,8 +64,8 @@
                 <div class="facility-card">
                     <img src="image/single_room.jpg" alt="Facility 1">
                     <div class="facility-card-body">
-                        <h5>single sharing room</h5>
-                        <p>Our hostel features a modern gym equipped with the latest machines and equipment to help residents stay fit and healthy.</p>
+                        <h5>Single sharing room</h5>
+                        <p>Comfortable private accommodation featuring a single bed, study desk, and storage space. Each room is well-ventilated and equipped with basic amenities to ensure a peaceful stay and productive study environment.</p>
                     </div>
                 </div>
             </div>
@@ -73,8 +73,8 @@
                 <div class="facility-card">
                     <img src="image/double_sharing_room.jpg" alt="Facility 1">
                     <div class="facility-card-body">
-                        <h5>double sharing rooms</h5>
-                        <p>Our hostel features a modern gym equipped with the latest machines and equipment to help residents stay fit and healthy.</p>
+                        <h5>Double sharing rooms</h5>
+                        <p>Well-designed rooms shared between two occupants, featuring individual beds, study spaces, and adequate storage. These rooms balance privacy with companionship, creating an ideal environment for academic and personal growth.</p>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                     <img src="image/mess1.jpg" alt="Facility 2">
                     <div class="facility-card-body">
                         <h5>Spacious Dining Hall</h5>
-                        <p>The dining hall is spacious, offering a variety of cuisines and ensuring hygiene and comfort for all residents.</p>
+                        <p>Large, air-conditioned dining area with comfortable seating arrangements. The hall serves nutritious meals in a clean, welcoming environment, accommodating multiple students while maintaining a pleasant dining experience.</p>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@
                     <img src="image/pantry.jpg" alt="Facility 2">
                     <div class="facility-card-body">
                         <h5>Spacious pantry</h5>
-                        <p>The dining hall is spacious, offering a variety of cuisines and ensuring hygiene and comfort for all residents.</p>
+                        <p>Clean and well-maintained pantry space equipped with basic cooking facilities and storage options. Perfect for preparing light meals and storing personal food items in a hygienic environment.</p>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                     <img src="image/wifi_facility.jpg" alt="Facility 3">
                     <div class="facility-card-body">
                         <h5>High-Speed Wi-Fi</h5>
-                        <p>Stay connected with our high-speed Wi-Fi available throughout the hostel premises, making it easy to study and stay in touch.</p>
+                        <p>Reliable, high-speed internet connectivity available throughout the hostel premises. Stay connected for your studies, entertainment, and communication needs with our robust Wi-Fi infrastructure.</p>
                     </div>
                 </div>
             </div>
@@ -110,8 +110,8 @@
                 <div class="facility-card">
                     <img src="image/canteen.jpg" alt="Facility 3">
                     <div class="facility-card-body">
-                        <h5>canteen</h5>
-                        <p>Stay connected with our high-speed Wi-Fi available throughout the hostel premises, making it easy to study and stay in touch.</p>
+                        <h5>Canteen</h5>
+                        <p>A well-stocked canteen offering a variety of snacks, beverages, and daily essentials. Enjoy quick bites and refreshments without leaving the premises, with options to suit different tastes and budgets.</p>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                     <img src="image/CCTV2.jpg" alt="Facility 4">
                     <div class="facility-card-body">
                         <h5>24/7 Security</h5>
-                        <p>Security is our top priority. The hostel is monitored by CCTV cameras and has 24/7 security personnel.</p>
+                        <p>Round-the-clock security personnel and surveillance systems ensure your safety and peace of mind. Our dedicated security team maintains strict access control and regular patrols throughout the premises.</p>
                     </div>
                 </div>
             </div>
@@ -131,8 +131,8 @@
                 <div class="facility-card">
                     <img src="image/cycle_stand2.jpg" alt="Facility 5">
                     <div class="facility-card-body">
-                        <h5>cycle stand</h5>
-                        <p>Enjoy your leisure time in our recreational area, equipped with games, TV, and comfortable seating.</p>
+                        <h5>Cycle stand</h5>
+                        <p>Secure and covered bicycle parking facility available for residents. Our designated cycle stand offers protection from weather elements and features sturdy racks for safe storage of your bicycles. Keep your eco-friendly mode of transport protected while promoting sustainable commuting.</p>
                     </div>
                 </div>
             </div>
@@ -141,7 +141,7 @@
                     <img src="image/laundry.jpg" alt="Facility 6">
                     <div class="facility-card-body">
                         <h5>Laundry Service</h5>
-                        <p>We offer an on-site laundry service for residents, ensuring you always have clean clothes with minimal hassle.</p>
+                        <p>Convenient on-site laundry facilities with washing machines and dryers, making it easy to maintain your wardrobe. Professional washing and ironing services are also available at nominal charges.</p>
                     </div>
                 </div>
             </div>

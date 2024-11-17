@@ -29,10 +29,10 @@
             list-style: none;
             padding: 0;
         }
-        .footer .footer-links li {
+        .footer .footer-links p {
             margin-bottom: 10px;
         }
-        .footer .footer-links li:not(:last-child) {
+        .footer .footer-links p:not(:last-child) {
             border-bottom: 1px dotted black;
             padding-bottom: 5px;
             margin-bottom: 5px;
@@ -42,6 +42,9 @@
         }
         .footer .footer-contact, .footer .footer-hours {
             margin-bottom: 20px;
+        }
+        .footer-contact{
+            margin-right:20px;
         }
         .footer .social-icons a {
             margin-right: 10px;
@@ -65,34 +68,38 @@
         <div class="container">
             <div class="footer-row">
                 <div class="col-md-3 footer-contact">
-                    <h5 class="footer-title">Department of Social Work</h5>
+                    <h5 class="footer-title">Prajyotika women's Hostel</h5>
                     <p>Tezpur University, Napaam, Assam - 784028</p>
-                    <p><i class="fa fa-phone"></i> 03712275831</p>
-                    <p><i class="fa fa-envelope"></i> hod_sw@tezu.ernet.in</p>
+                    <p><i class="fa fa-phone"></i> xxxxx xxxxx</p>
+                    <p><i class="fa fa-envelope"></i> pwh.tezu@gmail.com</p>
                 </div>
                 <div class="col-md-3">
-                    <h5 class="footer-title">Useful Links</h5>
+                    <h5 class="footer-title">University Links</h5>
                     <ul class="footer-links">
-                        <li><a href="faculty.php">Faculty</a></li>
-                        <li><a href="staff.php">Staff</a></li>
-                        <li><a href="visitors.php">Visitors</a></li>
-                        <li><a href="old/index.php">Old website</a></li>
+                        <li><a href="https://www.tezu.ernet.in/">Tezpur University</a></li>
+                        <li><a href="https://www.tezu.ernet.in/newsfeeds.html">TU News & Notifications</a></li>
+                        <li><a href="https://www.tezu.ernet.in/Library/index.php">Central Library</a></li>
+                        <li><a href="https://www.tezu.ernet.in/bus_time/Bus_Timing_8_2_2023.pdf">Bus Timings</a></li>
+                        <li><a href="https://www.tezu.ernet.in/notice/2023/December/HOLIDAY_LIST_2024.pdf">Holiday List</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <h5 class="footer-title">Useful Links</h5>
+                    <h5 class="footer-title">Download Links</h5>
                     <ul class="footer-links">
-                        <li><a href="research_area.php">Research Area</a></li>
-                        <li><a href="trust_area.php">Thrust Area</a></li>
-                        <li><a href="ongoing_projects.php">Ongoing Project</a></li>
-                        <li><a href="completed_projects.php">Completed Project</a></li>
+                        <li><a href="https://www.tezu.ernet.in/hostels/cmh/cmh_accomodation_form.pdf">Hostel Accommodation Form</a></li>
+                        <li><a href="https://www.tezu.ernet.in/hostels/cmh/Hostel-Accommodation-Guest.pdf">Guest Accommodation Form</a></li>
+                        <li><a href="https://www.tezu.ernet.in/hostels/cmh/pdf/cmh%20Hostel_Rules_2019.pdf">Hostel Rules</a></li>
+                        <li><a href="pdf/guest_form.pdf">Guest form</a></li>
+                        <li><a href="#">No Dues Certificate</a></li>
+                        <li><a href="#">Hostel Clearance Form</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <h5 class="footer-title">Opening Hours</h5>
+                    <h5 class="footer-title">Address</h5>
                     <ul class="footer-links">
-                        <li>Mon - Friday: 9.00 am - 5.30 pm</li>
-                        <li>Sat & Sun: Closed</li>
+                        <p>Prajyotika women's Hostel<br>Tezpur University, Napaam, Tezpur - 784028</p>
+                        <p>Email: pwh.tezu@gmail.com</p>
+                        <p>Phone: +91 xxxxx xxxxx</p>
                     </ul>
                     <h5 class="footer-title">Follow Us</h5>
                     <div class="social-icons">

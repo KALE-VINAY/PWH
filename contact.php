@@ -275,7 +275,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="info-box">
                 <img src="image/phone_icon.png" alt="Phone Icon">
                 <h5>Call us</h5>
-                <p>+91-11-23711222</p>
+                <p>+91 XXXXX XXXXX</p>
             </div>
         </div>
         <div class="col-md-4">

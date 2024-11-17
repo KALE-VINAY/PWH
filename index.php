@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="view-all text-end">
-                    <a href="#" class="btn btn-primary">View All</a>
+                    <a href="notice.php" class="btn btn-primary">View All</a>
                 </div>
             </div>
         </div>
@@ -188,8 +188,8 @@
         <div class="facility-card">
             <div class="facility-card-inner">
                 <div class="facility-card-front">
-                    <img src="image/c3.jpg" alt="Library" class="facility-card-img">
-                    <div class="facility-card-label">Library</div>
+                    <img src="image/CCTV2.jpg" alt="CCTV" class="facility-card-img">
+                    <div class="facility-card-label">CCTV 24/7</div>
                 </div>
                 
                 <div class="facility-card-back">
@@ -200,8 +200,8 @@
         <div class="facility-card">
             <div class="facility-card-inner">
                 <div class="facility-card-front">
-                    <img src="image/c1.jpg" alt="Library" class="facility-card-img">
-                    <div class="facility-card-label">Library</div>
+                    <img src="image/laundry.jpg" alt="Laundry" class="facility-card-img">
+                    <div class="facility-card-label">Laundry</div>
                 </div>
                 <div class="facility-card-back">
                     <a  href="facilities.php" class="facility-read-more">Read More</a>
@@ -211,8 +211,8 @@
         <div class="facility-card">
             <div class="facility-card-inner">
                 <div class="facility-card-front">
-                    <img src="image/c2.jpg" alt="Library" class="facility-card-img">
-                    <div class="facility-card-label">Library</div>
+                    <img src="image/canteen.jpg" alt="canteen" class="facility-card-img">
+                    <div class="facility-card-label">Canteen</div>
                 </div>
                 <div class="facility-card-back">
                     <a  href="facilities.php" class="facility-read-more">Read More</a>
@@ -222,8 +222,8 @@
         <div class="facility-card">
             <div class="facility-card-inner">
                 <div class="facility-card-front">
-                    <img src="image/c3.jpg" alt="Library" class="facility-card-img">
-                    <div class="facility-card-label">Library</div>
+                    <img src="image/visiting_room.jpg" alt="visiting" class="facility-card-img">
+                    <div class="facility-card-label">Visiting room</div>
                 </div>
                 <div class="facility-card-back">
                     <a  href="facilities.php" class="facility-read-more">Read More</a>
@@ -231,6 +231,17 @@
             </div>
         </div>
         <!-- Additional cards would follow with similar structure -->
+        <div class="facility-card">
+            <div class="facility-card-inner">
+                <div class="facility-card-front">
+                    <img src="image\wifi_facility.jpg" alt="wifi facility" class="facility-card-img">
+                    <div class="facility-card-label">High-Speed Wi-Fi</div>
+                </div>
+                <div class="facility-card-back">
+                    <a  href="facilities.php" class="facility-read-more">Read More</a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
