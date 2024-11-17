@@ -3,27 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transit Men's Hostel</title>
+    <title>Prajyotika women's Hostel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="css_style.css">
 </head>
 <body>
 
 <!-- Navbar -->
 <?php include 'navbar.php'; ?>
 
-<div style="display: flex; justify-content: space-between; width: 100%;">
+<div class="main-container " >
     <!-- Image Carousel (60% width) -->
-    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" style="width: 60%;">
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" >
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image/c2.jpg" class="d-block w-100" alt="Image 1">
+                <img src="image\PWH_5.png" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item ">
+                <img src="image/awards1.jpg" class="d-block w-100" alt="Image 1">
             </div>
             <div class="carousel-item">
-                <img src="image/c1.jpg" class="d-block w-100" alt="Image 2">
+                <img src="image\PWH_6.png" class="d-block w-100" alt="Image 2">
             </div>
             <div class="carousel-item">
-                <img src="image/c3.jpg" class="d-block w-100" alt="Image 3">
+                <img src="image\PWH_4.png" class="d-block w-100" alt="Image 3">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
@@ -37,25 +40,29 @@
     </div>
 
     <!-- Awards & Accolades (30% width) -->
-    <div id="awardsCarousel" class="carousel slide" data-bs-ride="carousel" style="width: 30%;">
+    <div id="awardsCarousel" class="carousel slide" data-bs-ride="carousel" >
         <h3>Awards & Accolades</h3>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image/c1.jpg" class="d-block w-100" alt="Award 1">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Award Title 1</h5>
+                <img src="image/awards4.jpg" class="d-block w-100" alt="Award 1">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Annual meet</h5>
+                    <h6>2022</h6>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="image/c2.jpg" class="d-block w-100" alt="Award 2">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Award Title 2</h5>
+                <img src="image\awards3.jpg" class="d-block w-100" alt="Award 2">
+                <div class="carousel-caption d-md-block">
+                    <h5>award</h5>
+                    <!-- <h5>Pragjyotika Women's Hostel</h5> -->
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="image/c3.jpg" class="d-block w-100" alt="Award 3">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Award Title 3</h5>
+                <img src="image/miss_TU_2024.jpg" class="d-block w-100" alt="Award 2">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Miss TU </h5>
+                    <h6>Dikshita Konwar(MCJ)</h6>
+                    <!-- <h5>Pragjyotika Women's Hostel</h5> -->
                 </div>
             </div>
         </div>
@@ -72,7 +79,7 @@
 
 <!-- Content Section -->
 <div class="container my-5">
-    <div class="row align-items-center">
+    <div class="row">
         <!-- Latest News Section -->
         <div class="col-md-4">
             <div class="latest-news">
@@ -107,10 +114,10 @@
         <!-- Main Content Section -->
         <div class="col-md-8">
             <div class="text-center mb-4">
-                <h4>What's Happening @ Transit Men's Hostel-2, Tezpur University</h4>
-                <a href="#">Bulletin of Information 2024-25</a><br>
-                <a href="#">Online Fee Payment</a><br>
-                <a href="#">Terms and conditions for online fees payment</a>
+                <h4>What's Happening @ Prajyotika women's Hostel, Tezpur University</h4>
+                  <div class="salogon">
+                     <h1>সকলোতকৈ জিলিকা <br>আমাৰ প্ৰাগজ্যোতিকা । </h1>
+                   </div>     
             </div>
             <div class="row">
                 <div class="col-md-4">
@@ -163,7 +170,12 @@
         With a strong commitment to the well-being of its residents, Prajyotika Women's Hostel emphasizes cleanliness, security, and a supportive environment that nurtures personal and academic growth.
     </p>
     <div class="about-image-container">
-        <img src="image/c3.jpg" alt="Prajyotika Women's Hostel" class="about-image">
+        <img src="image\PWH_6.png" alt="Prajyotika Women's Hostel" class="about-image">
+        <div class="quote-card">
+            <h1>Quote of the Day</h1>
+            <div class="quote"><h5>“A hostel is more than just a place to stay; it's where friendships blossom, memories are made, and dreams take flight. ”</h5></div>
+            <div class="author"><h5>— Anonymous</h5></div>
+        </div>
     </div>
 </div>
 
@@ -179,8 +191,9 @@
                     <img src="image/c3.jpg" alt="Library" class="facility-card-img">
                     <div class="facility-card-label">Library</div>
                 </div>
+                
                 <div class="facility-card-back">
-                    <a href="#" class="facility-read-more">Read More</a>
+                    <a  href="facilities.php" class="facility-read-more">Read More</a>
                 </div>
             </div>
         </div>
@@ -191,7 +204,7 @@
                     <div class="facility-card-label">Library</div>
                 </div>
                 <div class="facility-card-back">
-                    <a href="#" class="facility-read-more">Read More</a>
+                    <a  href="facilities.php" class="facility-read-more">Read More</a>
                 </div>
             </div>
         </div>
@@ -202,7 +215,7 @@
                     <div class="facility-card-label">Library</div>
                 </div>
                 <div class="facility-card-back">
-                    <a href="#" class="facility-read-more">Read More</a>
+                    <a  href="facilities.php" class="facility-read-more">Read More</a>
                 </div>
             </div>
         </div>
@@ -213,7 +226,7 @@
                     <div class="facility-card-label">Library</div>
                 </div>
                 <div class="facility-card-back">
-                    <a href="#" class="facility-read-more">Read More</a>
+                    <a  href="facilities.php" class="facility-read-more">Read More</a>
                 </div>
             </div>
         </div>
@@ -223,55 +236,17 @@
 
 
 <!-- Testimonial Section -->
-<div class="testimonial-section">
-    <div id="residentCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <h2>Boarders Experience</h2>
-            <!-- First Carousel Item -->
-            <div class="carousel-item active">
-                <div class="carousel-caption">
-                    <p>“Staying at TAPMI's hostel is an unforgettable experience. The facilities are top-notch, providing a comfortable and conducive environment for both studying and relaxation. The hostel staff were friendly and accommodating, ensuring a hassle-free stay.”</p>
-                    <div class="stars">
-                        <span>★ ★ ★ ★ ★</span>
-                    </div>
-                    <img src="https://via.placeholder.com/80" alt="Ravi Sahu" class="profile-img">
-                    <h6>Mr Ravi Sahu, Resident</h6>
-                </div>
-            </div>
-            <!-- Second Carousel Item -->
-            <div class="carousel-item">
-                <div class="carousel-caption">
-                    <p>“Living at the hostel was a fantastic experience. The environment was perfect for both academic pursuits and personal growth. The hostel facilities were excellent, and the staff made me feel at home.”</p>
-                    <div class="stars">
-                        <span>★ ★ ★ ★ ★</span>
-                    </div>
-                    <img src="https://via.placeholder.com/80" alt="John Doe" class="profile-img">
-                    <h6>Mr John Doe, Resident</h6>
-                </div>
-            </div>
-        </div>
-        <!-- Carousel Controls -->
-        <a class="carousel-control-prev" href="#residentCarousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#residentCarousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
-    </div>
-</div>
 <!-- Hostel Tour Section -->
 <div class="hostel-tour-section text-center">
     <h2>Hostel Tour</h2>
     <p>Take a virtual tour of our hostel facilities and get a glimpse of the comfortable living spaces we offer.</p>
     <div class="video-container">
-    <iframe width="560" height="200" src="https://www.youtube.com/embed/KnTtqdUsSWg?si=nVhbczIxpOspbUjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+    <iframe width="500" height="250" src="https://www.youtube.com/embed/zN7i-YXf5Dc?si=_cjF3JWK4SGs9OEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
 </div>
 
-<!-- Footer -->
 
+<!-- Footer -->
+<?php include 'bottom_nav.php'; ?>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
