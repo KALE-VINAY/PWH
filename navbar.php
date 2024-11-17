@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
-
+<div class="nav_fixed">
     <header class="top-header">
         <div class="container_navbar d-flex justify-content-center align-items-center">
             <img src="logo/PWH_logo.png" alt="Logo">
@@ -38,6 +38,6 @@
             </div>
         </div>
     </nav>
-
+</div>
 </body>
 </html>

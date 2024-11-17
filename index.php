@@ -6,7 +6,7 @@
     <title>Prajyotika women's Hostel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
    <link rel="stylesheet" href="css_style.css">
-</head>
+   <link rel="icon" type="image/png" href="logo/PWH_logo.png"/></head>
 <body>
 
 <!-- Navbar -->
@@ -17,7 +17,7 @@
     <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel" >
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image\PWH_5.png" class="d-block w-100" alt="Image 1">
+                <img src="image\c1.gif" class="d-block w-100" alt="Image 1">
             </div>
             <div class="carousel-item ">
                 <img src="image/awards1.jpg" class="d-block w-100" alt="Image 1">

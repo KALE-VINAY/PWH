@@ -1,3 +1,9 @@
+.nav_fixed{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: #fff;
+}
 .container_navbar{
     text-align: center;
     display: contents;
