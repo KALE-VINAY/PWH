@@ -400,21 +400,21 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><img src="image/fw1.jpg" alt="Former Warden 1" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                    <td><img src="image/vaishnavi.png" alt="Former Warden 1" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
                     <td>Vaishanavi Singh </td>
                     <td>Department of Commerce</td>
                     <td>2023-2024</td>
                 </tr>
                 <tr>
-                    <td><img src="image/fw2.jpg" alt="Former Warden 2" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                    <td><img src="image/vaishnavi3.png" alt="Former Warden 2" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
                     <td>Hrishitaa Chetia</td>
-                    <td>Department of </td>
-                    <td>2012-2023</td>
+                    <td>Department of Electrical Engineering </td>
+                    <td>2022-2023</td>
                 </tr>
                 <tr>
-                    <td><img src="image/fw3.jpg" alt="Former Warden 3" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                    <td><img src="image/vaishnavi4.png" alt="Former Warden 3" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
                     <td>Sanobar Arafat </td>
-                    <td>Department of </td>
+                    <td>Department of Civil Engineering </td>
                     <td>2021-2022</td>
                 </tr>
             </tbody>
