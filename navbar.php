@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prajyotika women's Hostel</title>
+    <title>Pragjyotika women's Hostel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="navbar.css">
 </head>
@@ -13,7 +13,7 @@
         <div class="container_navbar d-flex justify-content-center align-items-center">
             <img src="logo/PWH_logo.png" alt="Logo">
             <div>
-                <h1 class="navbar-brand">Prajyotika women's Hostel<br> Tezpur University</h1>
+                <h1 class="navbar-brand">Pragjyotika women's Hostel<br> Tezpur University</h1>
             </div>
             <img src="logo/tulogo.png" alt="Logo">
         </div>

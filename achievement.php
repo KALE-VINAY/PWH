@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Achievements</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="icon" type="image/png" href="logo/PWH_logo.png"/></head>
 
     <style>
@@ -112,7 +112,7 @@
         <div class="row d-none" id="year-2023">
             <div class="col-md-4 mb-4">
                 <div class="card card-custom">
-                    <img src="image/c3.jpg" class="card-img-top" alt="Achievement 3">
+                    <img src="image/PWH_4.jpg" class="card-img-top" alt="Achievement 3">
                     <div class="card-body">
                         <h5 class="card-title">Achievement Title 3</h5>
                         <p class="card-text">Description of the achievement for the year 2023.</p>
@@ -133,22 +133,41 @@
         <div class="row d-none" id="year-2022">
             <div class="col-md-4 mb-4">
                 <div class="card card-custom">
-                    <img src="image/c5.jpg" class="card-img-top" alt="Achievement 5">
+                    <img src="image/achievement1.jpg" class="card-img-top" alt="Achievement 5">
                     <div class="card-body">
-                        <h5 class="card-title">Achievement Title 5</h5>
+                        <h5 class="card-title">Innovative Dress (gold)</h5>
                         <p class="card-text">Description of the achievement for the year 2022.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card card-custom">
-                    <img src="image/c1.jpg" class="card-img-top" alt="Achievement 6">
+                    <img src="image/achievement2.jpg" class="card-img-top" alt="Achievement 5">
                     <div class="card-body">
-                        <h5 class="card-title">Achievement Title 6</h5>
+                        <h5 class="card-title">Biyanaam (bronze)</h5>
                         <p class="card-text">Description of the achievement for the year 2022.</p>
                     </div>
                 </div>
             </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-custom">
+                    <img src="image/achievement3.jpg" class="card-img-top" alt="Achievement 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Dihanaam (gold)</h5>
+                        <p class="card-text">Description of the achievement for the year 2022.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card card-custom">
+                    <img src="image/achievement4.jpg" class="card-img-top" alt="Achievement 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Wall Magazine (silver)</h5>
+                        <p class="card-text">Description of the achievement for the year 2022.</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

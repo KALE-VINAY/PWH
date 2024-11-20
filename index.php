@@ -26,7 +26,7 @@
                 <img src="image\PWH_6.png" class="d-block w-100" alt="Image 2">
             </div>
             <div class="carousel-item">
-                <img src="image\PWH_4.png" class="d-block w-100" alt="Image 3">
+                <img src="image/achievement3.jpg" class="d-block w-100" alt="Image 3">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
@@ -51,6 +51,14 @@
                 </div>
             </div>
             <div class="carousel-item">
+                <img src="image/achievement5.jpg" class="d-block w-100" alt="Award 2">
+                <div class="carousel-caption  d-md-block">
+                    <h5>Miss TU </h5>
+                    <h6>Dikshita Konwar(MCJ)</h6>
+                    <!-- <h5>Pragjyotika Women's Hostel</h5> -->
+                </div>
+            </div>
+            <div class="carousel-item">
                 <img src="image\awards3.jpg" class="d-block w-100" alt="Award 2">
                 <div class="carousel-caption d-md-block">
                     <h5>award</h5>
@@ -65,6 +73,7 @@
                     <!-- <h5>Pragjyotika Women's Hostel</h5> -->
                 </div>
             </div>
+            
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#awardsCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>

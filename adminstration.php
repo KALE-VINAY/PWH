@@ -193,7 +193,7 @@
     <button class="tab-btn" data-target="prefects">Prefects</button>
     <button class="tab-btn" data-target="assistant-prefects">Assistant Prefects</button>
     <button class="tab-btn" data-target="office-staff">Office Staff</button>
-    <button class="tab-btn" data-target="hostel-admin">Hostel Admin</button>
+    <button class="tab-btn" data-target="hostel-admin">Web master</button>
 </div>
 
 <!-- Content Sections -->
@@ -305,7 +305,7 @@
                 <div class="card-header-custom">ASSISTANT PREFECT
                     <h6>(General Administration)</h6>
                 </div>
-                <img src="image\Muskan_Borgohain.jpg" alt="Senior Warden">
+                <img src="image\Muskan_Borgohain.jpg" alt="assistant prefect">
                 <h5>Muskan Borgohain (MEB21013)</h5>
                 <p>Department of Mechanical Engineering, Tezpur University</p>
                 
@@ -320,7 +320,7 @@
                 <div class="card-header-custom">ASSISTANT PREFECT
                      <h6>(Discipline and Maintenance)</h6>
                 </div>
-                <img src="image\Shruti_Roy1.jpg" alt="Warden">
+                <img src="image/shruti_a.png" alt="assistant prefect">
                 <h5>Shruti Roy</h5>
                 <p>Department of ECE, Tezpur University</p>
                 <div class="contact_details">
@@ -335,7 +335,7 @@
                 <div class="card-header-custom">ASSISTANT PREFECT
                  <h6>(Finance and Audit)</h6>
                 </div>
-                <img src="image\Farhin_Inteza_Ahmed.jpg" alt="Warden">
+                <img src="image\Farhin_Inteza_Ahmed.jpg" alt="assistant prefect">
                 <h5>Farhin Inteza Ahmed</h5>
                 <p>Department of FET, Tezpur University</p>
                 <div class="contact_details">
@@ -350,7 +350,7 @@
                 <div class="card-header-custom">ASSISTANT PREFECT
                   <h6>(Mess Operations)</h6>
                 </div>
-                <img src="image\Amandiva_Bordoloi.jpg" alt="Warden">
+                <img src="image\Amandiva_Bordoloi.jpg" alt="assistant prefect">
                 <h5>Amandiva Priyam Bordoloi</h5>
                 <p>Department of FET, Tezpur University</p>
                 <div class="contact_details">
@@ -374,7 +374,7 @@
         <div class="col-md-6">
             <div class="card-custom">
                 <div class="card-header-custom">PREFECT</div>
-                <img src="image/c1.jpg" alt="Senior Warden">
+                <img src="image/c1.jpg" alt="prefect">
                 <h5>Kasturi Kashyap (EGI21014)</h5>
                 <p>Department of English, Tezpur University</p>
                 <div class="contact_details">
@@ -430,6 +430,20 @@
     
          <!-- Current Wardens -->
     <div class="row">
+
+        <div class="col-md-6">
+                <div class="card-custom">
+                    <div class="card-header-custom">OFFICE STAFF</div>
+                    <img src="image/Nita_devi.jpg" alt="Senior Warden">
+                    <h5>Nita Devi</h5>
+                    <p>Pragjyotika women's hostel<br>Tezpur University</p>
+                    <div class="contact_details">
+                    <p>Phone: +916001765059</p>
+                    <p>Email: nitad6468@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
         <div class="col-md-6">
             <div class="card-custom">
                 <div class="card-header-custom">OFFICE STAFF</div>
