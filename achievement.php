@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Achievements</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="logo/PWH_logo.png"/></head>
 
     <style>
@@ -75,20 +75,20 @@
 
     <!-- Year Selection Navigation -->
     <ul class="nav nav-pills justify-content-center year-section">
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link-achievements active" href="#" data-year="2024">2024</a>
         </li>
         <li class="nav-item">
             <a class="nav-link-achievements" href="#" data-year="2023">2023</a>
-        </li>
+        </li> -->
         <li class="nav-item">
-            <a class="nav-link-achievements" href="#" data-year="2022">2022</a>
+            <a class="nav-link-achievements active" href="#" data-year="2022">2022</a>
         </li>
     </ul>
 
     <!-- Achievements Cards -->
     <div id="achievements-container">
-        <div class="row" id="year-2024">
+        <!-- <div class="row" id="year-2024">
             <div class="col-md-4 mb-4">
                 <div class="card card-custom">
                     <img src="image/c1.jpg" class="card-img-top" alt="Achievement 1">
@@ -128,9 +128,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row d-none" id="year-2022">
+        <div class="row " id="year-2022">
             <div class="col-md-4 mb-4">
                 <div class="card card-custom">
                     <img src="image/achievement1.jpg" class="card-img-top" alt="Achievement 5">
@@ -171,6 +171,12 @@
         </div>
     </div>
 </div>
+
+
+<!-- Add Bootstrap JS and its dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
 
 <script>
     document.querySelectorAll('.nav-link-achievements').forEach(function(link) {

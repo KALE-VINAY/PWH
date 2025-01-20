@@ -406,13 +406,13 @@
                     <td>2023-2024</td>
                 </tr>
                 <tr>
-                    <td><img src="image/vaishnavi3.png" alt="Former Warden 2" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
+                    <td><img src="" alt="Former Warden 2" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
                     <td>Hrishitaa Chetia</td>
                     <td>Department of Electrical Engineering </td>
                     <td>2022-2023</td>
                 </tr>
                 <tr>
-                    <td><img src="image/vaishnavi4.png" alt="Former Warden 3" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
+                    <td><img src="" alt="Former Warden 3" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
                     <td>Sanobar Arafat </td>
                     <td>Department of Civil Engineering </td>
                     <td>2021-2022</td>
@@ -479,24 +479,24 @@
         <div class="col-md-6">
             <div class="card-custom">
                 <div class="card-header-custom">Web Master</div>
-                <img src="image/c1.jpg" alt="Senior Warden">
-                <h5>Dr. Akash Ranjan</h5>
-                <p>Associate Professor<br>Department of Education, Tezpur University</p>
+                <img src="image/web_master1.png" alt="Senior Warden">
+                <h5>Kale Vinay</h5>
+                <p>Student<br>Department of ECE, Tezpur University</p>
                 <div class="contact_details">
-                  <p>Phone: +919804173515</p>
-                  <p>Email: aranjan@tezu.ernet.in</p>
+                  <p>Phone: +916309862025 </p>
+                  <p>Email: ecs24006@tezu.ac.in</p>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="card-custom">
-                <div class="card-header-custom">HOSTEL ADMIN</div>
-                <img src="image/c2.jpg" alt="Warden">
-                <h5>Dr. Biswajit Ghose</h5>
-                <p>Assistant Professor<br>Department of Commerce, Tezpur University</p>
+                <div class="card-header-custom">Web Master</div>
+                <img src="image/Web_master2.jpg" alt="Warden">
+                <h5>Nitish Priyadarshi</h5>
+                <p>Student<br>Department of Civil Engineering, Tezpur University</p>
                 <div class="contact_details">
-                  <p>Phone: +919804173515</p>
-                  <p>Email: aranjan@tezu.ernet.in</p>
+                  <p>Phone: +917484057603</p>
+                  <p>Email: nkss00740@gmail.com</p>
                 </div>
             </div>
         </div>

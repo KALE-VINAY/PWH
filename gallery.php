@@ -60,7 +60,7 @@
 
 <div class="container my-4">
     <!-- First Event Carousel -->
-    <div class="event-header">Upcoming Events 2024</div>
+    <div class="event-header"> Golden Glimpses </div>
     
     <div id="eventCarousel1" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -70,13 +70,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image/c1.jpg" class="d-block w-100" alt="Security Staff Training">
+                <img src="image/admin_photo.jpg" class="d-block w-100" alt="Security Staff Training">
             </div>
             <div class="carousel-item">
-                <img src="image/c2.jpg" class="d-block w-100" alt="Independence Day">
+                <img src="image/achievement2.jpg" class="d-block w-100" alt="Independence Day">
             </div>
             <div class="carousel-item">
-                <img src="image/c3.jpg" class="d-block w-100" alt="Cultural Fest">
+                <img src="image/achievement1.jpg" class="d-block w-100" alt="Cultural Fest">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel1" data-bs-slide="prev">
@@ -92,7 +92,7 @@
 
 <!-- Second Event Carousel -->
 <div class="container my-4">
-    <div class="event-header">Upcoming Events 2024</div>
+    <div class="event-header">Hostel Highlights</div>
     
     <div id="eventCarousel2" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -102,13 +102,13 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="image/c1.jpg" class="d-block w-100" alt="Security Staff Training">
+                <img src="image/awards1.jpg" class="d-block w-100" alt="Security Staff Training">
             </div>
             <div class="carousel-item">
-                <img src="image/c2.jpg" class="d-block w-100" alt="Independence Day">
+                <img src="image/awards2.jpg" class="d-block w-100" alt="Independence Day">
             </div>
             <div class="carousel-item">
-                <img src="image/c3.jpg" class="d-block w-100" alt="Cultural Fest">
+                <img src="image/achievement3.jpg" class="d-block w-100" alt="Cultural Fest">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel2" data-bs-slide="prev">
