@@ -13,7 +13,7 @@
         <div class="container_navbar d-flex justify-content-center align-items-center">
             <img src="logo/PWH_logo.png" alt="Logo">
             <div>
-                <h1 class="navbar-brand">Pragjyotika women's Hostel<br> Tezpur University</h1>
+                <h1 class="navbar-brand">Pragjyotika Women's Hostel<br> Tezpur University</h1>
             </div>
             <img src="logo/tulogo.png" alt="Logo">
         </div>

@@ -133,7 +133,7 @@
                     <img src="image/c2.jpg" class="img-fluid" alt="Hostel Image 1">
                 </div>
                 <div class="col-md-4">
-                    <img src="image/c1.jpg" class="img-fluid" alt="Hostel Image 2">
+                    <img src="gallery/fulladmin.jpg" class="img-fluid" alt="Hostel Image 2">
                 </div>
                 <div class="col-md-4">
                     <img src="image/c3.jpg" class="img-fluid" alt="Hostel Image 3">
@@ -142,13 +142,13 @@
             <div class="row text-center mt-4 stats-section">
                 <div class="col-md-3">
                     <div class="stat-item">
-                        <h1>8</h1>
+                        <h1>6</h1>
                         <p>Wings</p>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="stat-item">
-                        <h1>4</h1>
+                        <h1>3</h1>
                         <p>Floors per Cluster</p>
                     </div>
                 </div>

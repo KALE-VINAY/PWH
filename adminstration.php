@@ -161,7 +161,7 @@
         }
 
         .table img {
-            border-radius: 5px;
+            border-radius: 100%;
             object-fit: cover;
             width: 80px;
             height: 80px;
@@ -298,7 +298,7 @@
 
     <div id="assistant-prefects" class="content-section">
 <!-- Add content for asistant Prefects -->    
-         <!-- Current Wardens -->
+      
     <div class="row">
         <div class="col-md-6">
             <div class="card-custom">
@@ -362,7 +362,117 @@
 
     </div>
 
-    
+       <!-- Former Assistant Prefect -->
+       <h3 class="mt-4">Former Assistant Prefects</h3>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Department</th>
+                    <th scope="col">Year</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                    <td><img src="image/vaishnavi.png" alt="Former prefect 1" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                    <td>Vaishnavi Singh</td>
+                    <td>Dept. of Commerce</td>
+                    <td>2023-2024</td>
+                </tr>
+                <tr>
+                    <td><img src="image/Dimpal.png" alt="Former prefect 2" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                    <td>Dimpal Das</td>
+                    <td>Dept. of Mechanical Engineering</td>
+                    <td>2023-2024</td>
+                </tr>
+                <tr>
+                    <td><img src="image/Sangita.png" alt="Former prefect 3" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                    <td>Sangita Das</td>
+                    <td>Dept. of Mechanical Engineering</td>
+                    <td>2023-2024</td>
+                </tr>
+                <tr>
+                    <td><img src="image/kasturi.png" alt="Former prefect 4" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                    <td>Kasturi Kashyap</td>
+                    <td>Dept. of English</td>
+                    <td>2023-2024</td>
+                </tr>
+                <tr>
+                    <td><img src="image/rojy.png" alt="Former prefect 5" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                    <td>Rojy Saikia</td>
+                    <td>Dept. of Physics</td>
+                    <td>2023-2024</td>
+                </tr>
+                                    <!-- Admin Body 2022-23 -->
+                    <tr>
+                        <td><img src="image/Hrishitaa_former_prefect.png" alt="Former prefect 1" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td>Hrishitaa Chetia</td>
+                        <td>Dept. of Electrical Engineering</td>
+                        <td>2022-2023</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/vaishnavi.png" alt="Former prefect 2" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td>Vaishnavi Singh</td>
+                        <td>Dept. of Commerce</td>
+                        <td>2022-2023</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/anindita.png" alt="Former prefect 3" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td>Anindita Medhi</td>
+                        <td>Dept. of FET</td>
+                        <td>2022-2023</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/pragya.png" alt="Former prefect 4" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td>Pragya Boral</td>
+                        <td>Dept. of CSE</td>
+                        <td>2022-2023</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/sangita.png" alt="Former prefect 5" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td>Sangita Das</td>
+                        <td>Dept. of Mechanical Engineering</td>
+                        <td>2022-2023</td>
+                    </tr>
+
+                    <!-- Admin Body 2021-22 -->
+                    <tr>
+                        <td><img src="image/Sanobar_former_prefect.png" alt="Former prefect 6" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td>Sanobar Arafat</td>
+                        <td>Dept. of Mechanical Engineering</td>
+                        <td>2021-2022</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/Hrishitaa_former_prefect.png" alt="Former prefect 7" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td>Hrishitaa Chetia</td>
+                        <td>Dept. of Electrical Engineering</td>
+                        <td>2021-2022</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/himakshi.png" alt="Former prefect 8" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td>Himakshi Baishya</td>
+                        <td>Dept. of Mechanical Engineering</td>
+                        <td>2021-2022</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/vaishnavi.png" alt="Former prefect 9" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td>Vaishnavi Singh</td>
+                        <td>Dept. of Commerce</td>
+                        <td>2021-2022</td>
+                    </tr>
+                    <tr>
+                        <td><img src="image/abhilashi.png" alt="Former prefect 10" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td>Abhilashi Subash Gogoi</td>
+                        <td>Dept. of Commerce</td>
+                        <td>2021-2022</td>
+                    </tr>
+
+
+            </tbody>
+        </table>
+    </div>
    
     </div>
 
@@ -374,7 +484,7 @@
         <div class="col-md-6">
             <div class="card-custom">
                 <div class="card-header-custom">PREFECT</div>
-                <img src="image/c1.jpg" alt="prefect">
+                <img src="image/kasturi.png" alt="prefect">
                 <h5>Kasturi Kashyap (EGI21014)</h5>
                 <p>Department of English, Tezpur University</p>
                 <div class="contact_details">
@@ -400,21 +510,21 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><img src="image/vaishnavi.png" alt="Former Warden 1" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
+                    <td><img src="image/vaishnavi.png" alt="Former prefect 1" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
                     <td>Vaishanavi Singh </td>
                     <td>Department of Commerce</td>
                     <td>2023-2024</td>
                 </tr>
                 <tr>
-                    <td><img src="" alt="Former Warden 2" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
+                    <td><img src="image/Hrishitaa_former_prefect.png" alt="Former prefect 2" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
                     <td>Hrishitaa Chetia</td>
                     <td>Department of Electrical Engineering </td>
                     <td>2022-2023</td>
                 </tr>
                 <tr>
-                    <td><img src="" alt="Former Warden 3" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
+                    <td><img src="image/Sanobar_former_prefect.png" alt="Former prefect 3" class="img-fluid" style="width: 100px; height: 100px;  object-fit: cover;"></td>
                     <td>Sanobar Arafat </td>
-                    <td>Department of Civil Engineering </td>
+                    <td>Department of Mechanical Engineering </td>
                     <td>2021-2022</td>
                 </tr>
             </tbody>

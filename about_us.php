@@ -267,8 +267,8 @@
                         <div class="d-flex align-items-center">
                             <img src="https://via.placeholder.com/50" alt="Student" class="rounded-circle me-3">
                             <div>
-                                <h5 class="mb-0">Priya Sharma</h5>
-                                <small class="text-muted">Final Year Student</small>
+                                <h5 class="mb-0">Priyadarshini</h5>
+                                <small class="text-muted">Ex-Student</small>
                             </div>
                         </div>
                     </div>
@@ -280,7 +280,7 @@
                             <img src="https://via.placeholder.com/50" alt="Student" class="rounded-circle me-3">
                             <div>
                                 <h5 class="mb-0">Anjali Patel</h5>
-                                <small class="text-muted">Second Year Student</small>
+                                <small class="text-muted">Ex-Student</small>
                             </div>
                         </div>
                     </div>
