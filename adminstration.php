@@ -188,7 +188,7 @@
 
 <!-- Navbar -->
 <div class="nav-tabs-custom">
-    <h4>Administration of Prajyotika Women's Hostel</h4>
+    <h4>Administration of Pragjyotika Women's Hostel</h4>
     <button class="tab-btn active" data-target="warden">Warden</button>
     <button class="tab-btn" data-target="prefects">Prefects</button>
     <button class="tab-btn" data-target="assistant-prefects">Assistant Prefects</button>
@@ -375,12 +375,7 @@
                 </tr>
             </thead>
             <tbody>
-            <tr>
-                    <td><img src="image/vaishnavi.png" alt="Former prefect 1" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
-                    <td>Vaishnavi Singh</td>
-                    <td>Dept. of Commerce</td>
-                    <td>2023-2024</td>
-                </tr>
+           
                 <tr>
                     <td><img src="image/Dimpal.png" alt="Former prefect 2" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
                     <td>Dimpal Das</td>
@@ -394,7 +389,7 @@
                     <td>2023-2024</td>
                 </tr>
                 <tr>
-                    <td><img src="image/kasturi.png" alt="Former prefect 4" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                    <td><img src="image/Kasturi.png" alt="Former prefect 4" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
                     <td>Kasturi Kashyap</td>
                     <td>Dept. of English</td>
                     <td>2023-2024</td>
@@ -406,12 +401,7 @@
                     <td>2023-2024</td>
                 </tr>
                                     <!-- Admin Body 2022-23 -->
-                    <tr>
-                        <td><img src="image/Hrishitaa_former_prefect.png" alt="Former prefect 1" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
-                        <td>Hrishitaa Chetia</td>
-                        <td>Dept. of Electrical Engineering</td>
-                        <td>2022-2023</td>
-                    </tr>
+                   
                     <tr>
                         <td><img src="image/vaishnavi.png" alt="Former prefect 2" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
                         <td>Vaishnavi Singh</td>
@@ -419,31 +409,26 @@
                         <td>2022-2023</td>
                     </tr>
                     <tr>
-                        <td><img src="image/anindita.png" alt="Former prefect 3" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td><img src="image/Anindita.png" alt="Former prefect 3" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
                         <td>Anindita Medhi</td>
                         <td>Dept. of FET</td>
                         <td>2022-2023</td>
                     </tr>
                     <tr>
-                        <td><img src="image/pragya.png" alt="Former prefect 4" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td><img src="image/Pragya.png" alt="Former prefect 4" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
                         <td>Pragya Boral</td>
                         <td>Dept. of CSE</td>
                         <td>2022-2023</td>
                     </tr>
                     <tr>
-                        <td><img src="image/sangita.png" alt="Former prefect 5" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td><img src="image/Sangita.png" alt="Former prefect 5" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
                         <td>Sangita Das</td>
                         <td>Dept. of Mechanical Engineering</td>
                         <td>2022-2023</td>
                     </tr>
 
                     <!-- Admin Body 2021-22 -->
-                    <tr>
-                        <td><img src="image/Sanobar_former_prefect.png" alt="Former prefect 6" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
-                        <td>Sanobar Arafat</td>
-                        <td>Dept. of Mechanical Engineering</td>
-                        <td>2021-2022</td>
-                    </tr>
+        
                     <tr>
                         <td><img src="image/Hrishitaa_former_prefect.png" alt="Former prefect 7" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
                         <td>Hrishitaa Chetia</td>
@@ -451,7 +436,7 @@
                         <td>2021-2022</td>
                     </tr>
                     <tr>
-                        <td><img src="image/himakshi.png" alt="Former prefect 8" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td><img src="image/Himakshi.png" alt="Former prefect 8" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
                         <td>Himakshi Baishya</td>
                         <td>Dept. of Mechanical Engineering</td>
                         <td>2021-2022</td>
@@ -463,7 +448,7 @@
                         <td>2021-2022</td>
                     </tr>
                     <tr>
-                        <td><img src="image/abhilashi.png" alt="Former prefect 10" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
+                        <td><img src="image/Abhilashi.png" alt="Former prefect 10" class="img-fluid" style="width: 100px; height: 100px; object-fit: cover;"></td>
                         <td>Abhilashi Subash Gogoi</td>
                         <td>Dept. of Commerce</td>
                         <td>2021-2022</td>
@@ -484,7 +469,7 @@
         <div class="col-md-6">
             <div class="card-custom">
                 <div class="card-header-custom">PREFECT</div>
-                <img src="image/kasturi.png" alt="prefect">
+                <img src="image/Kasturi.png" alt="prefect">
                 <h5>Kasturi Kashyap (EGI21014)</h5>
                 <p>Department of English, Tezpur University</p>
                 <div class="contact_details">

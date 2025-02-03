@@ -91,72 +91,76 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-</div>
 
-<!-- Third Event Carousel (Fixed ID) -->
-<div class="container my-4">
-    <div class="event-header"> Gallery Highlights </div>
-    
-    <div id="eventCarousel3" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#eventCarousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#eventCarousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#eventCarousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!-- Third Event Carousel (Fixed ID) -->
+    <div class="container my-4">
+        <div class="event-header"> Gallery Highlights </div>
+        
+        <div id="eventCarousel3" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#eventCarousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#eventCarousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#eventCarousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="gallery/g1.jpg" class="d-block w-100" alt="Security Staff Training">
+                </div>
+                <div class="carousel-item">
+                    <img src="gallery/g2.jpg" class="d-block w-100" alt="Independence Day">
+                </div>
+                <div class="carousel-item">
+                    <img src="gallery/g22.jpg" class="d-block w-100" alt="Cultural Fest">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#eventCarousel3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="gallery/g1.jpg" class="d-block w-100" alt="Security Staff Training">
-            </div>
-            <div class="carousel-item">
-                <img src="gallery/g2.jpg" class="d-block w-100" alt="Independence Day">
-            </div>
-            <div class="carousel-item">
-                <img src="gallery/g22.jpg" class="d-block w-100" alt="Cultural Fest">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel3" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#eventCarousel3" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
-</div>
 
 
-<!-- Second Event Carousel -->
-<div class="container my-4">
-    <div class="event-header"> Hostel Highlights </div>
-    
-    <div id="eventCarousel2" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#eventCarousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#eventCarousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#eventCarousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!-- Second Event Carousel -->
+    <div class="container my-4">
+        <div class="event-header"> Hostel Highlights </div>
+        
+        <div id="eventCarousel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#eventCarousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#eventCarousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#eventCarousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/awards1.jpg" class="d-block w-100" alt="Security Staff Training">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/awards2.jpg" class="d-block w-100" alt="Independence Day">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/achievement3.jpg" class="d-block w-100" alt="Cultural Fest">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#eventCarousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="image/awards1.jpg" class="d-block w-100" alt="Security Staff Training">
-            </div>
-            <div class="carousel-item">
-                <img src="image/awards2.jpg" class="d-block w-100" alt="Independence Day">
-            </div>
-            <div class="carousel-item">
-                <img src="image/achievement3.jpg" class="d-block w-100" alt="Cultural Fest">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#eventCarousel2" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#eventCarousel2" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
+
+
 </div>
+
+
 
 
 <?php include 'bottom_nav.php'; ?>

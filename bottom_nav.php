@@ -68,7 +68,7 @@
         <div class="container">
             <div class="footer-row">
                 <div class="col-md-3 footer-contact">
-                    <h5 class="footer-title">Pragjyotika women's Hostel</h5>
+                    <h5 class="footer-title">Pragjyotika Women's Hostel</h5>
                     <p>Tezpur University, Napaam, Assam - 784028</p>
                     <p><i class="fa fa-phone"></i> xxxxx xxxxx</p>
                     <p><i class="fa fa-envelope"></i> pwh.tezu@gmail.com</p>
@@ -97,7 +97,7 @@
                 <div class="col-md-3">
                     <h5 class="footer-title">Address</h5>
                     <ul class="footer-links">
-                        <p>Pragjyotika women's Hostel<br>Tezpur University, Napaam, Tezpur - 784028</p>
+                        <p>Pragjyotika Women's Hostel<br>Tezpur University, Napaam, Tezpur - 784028</p>
                         <p>Email: pwh.tezu@gmail.com</p>
                         <p>Phone: +91 xxxxx xxxxx</p>
                     </ul>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prajyotika women's Hostel</title>
+    <title>Pragjyotika Women's Hostel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
    <link rel="stylesheet" href="css_style.css">
    <link rel="icon" type="image/png" href="logo/PWH_logo.png"/></head>
@@ -123,7 +123,7 @@
         <!-- Main Content Section -->
         <div class="col-md-8">
             <div class="text-center mb-4">
-                <h4>What's Happening @ Prajyotika women's Hostel, Tezpur University</h4>
+                <h4>What's Happening @ Pragjyotika Women's Hostel, Tezpur University</h4>
                   <div class="salogon">
                      <h1>সকলোতকৈ জিলিকা <br>আমাৰ প্ৰাগজ্যোতিকা । </h1>
                    </div>     
@@ -171,12 +171,12 @@
 
 
 <div class="about-section">
-    <h2 class="about-heading">About the Prajyotika Women's Hostel</h2>
+    <h2 class="about-heading">About the Pragjyotika Women's Hostel</h2>
     <p class="about-content">
-        Prajyotika Women's Hostel is one of the premier hostels in Tezpur University, Assam, offering a safe and vibrant living space for female students. 
+        Pragjyotika Women's Hostel is one of the premier hostels in Tezpur University, Assam, offering a safe and vibrant living space for female students. 
         The hostel provides modern facilities and a friendly environment, ensuring comfort and a sense of community. 
         Located within the serene campus of Tezpur University, the hostel offers a balanced atmosphere where students can focus on academics and enjoy various extracurricular activities. 
-        With a strong commitment to the well-being of its residents, Prajyotika Women's Hostel emphasizes cleanliness, security, and a supportive environment that nurtures personal and academic growth.
+        With a strong commitment to the well-being of its residents, Pragjyotika Women's Hostel emphasizes cleanliness, security, and a supportive environment that nurtures personal and academic growth.
     </p>
     <div class="about-image-container">
         <img src="image\PWH_6.png" alt="Prajyotika Women's Hostel" class="about-image">
