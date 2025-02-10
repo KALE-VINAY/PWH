@@ -53,15 +53,15 @@
             <div class="carousel-item">
                 <img src="image/achievement5.jpg" class="d-block w-100" alt="Award 2">
                 <div class="carousel-caption  d-md-block">
-                    <h5>Miss TU </h5>
-                    <h6>Dikshita Konwar(MCJ)</h6>
+                    <h5>Awards</h5>
+                    <h6></h6>
                     <!-- <h5>Pragjyotika Women's Hostel</h5> -->
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="image\awards3.jpg" class="d-block w-100" alt="Award 2">
                 <div class="carousel-caption d-md-block">
-                    <h5>award</h5>
+                    <h5>Award</h5>
                     <!-- <h5>Pragjyotika Women's Hostel</h5> -->
                 </div>
             </div>

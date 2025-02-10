@@ -282,7 +282,7 @@
                     <tr>
                         <td><img src="image/fw3.jpg" alt="Former Warden 3"></td>
                         <td>Juri Dutta</td>
-                        <td>Department of </td>
+                        <td>Department of Physics</td>
                         <td>2017-2019</td>
                     </tr>
                 </tbody>

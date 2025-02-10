@@ -136,16 +136,27 @@
                     <img src="image/achievement1.jpg" class="card-img-top" alt="Achievement 5">
                     <div class="card-body">
                         <h5 class="card-title">Innovative Dress (gold)</h5>
-                        <p class="card-text">Description of the achievement for the year 2022.</p>
+                        <!-- <p class="card-text">Description of the achievement for the year 2022.</p> -->
                     </div>
                 </div>
             </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card card-custom">
+                    <img src="image/achievement6.jpg" class="card-img-top" alt="Achievement 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Marchpast 2022-23 runners up</h5>
+                        <!-- <p class="card-text">2023 runners up.</p> -->
+                    </div>
+                </div>
+            </div>
+
             <div class="col-md-4 mb-4">
                 <div class="card card-custom">
                     <img src="image/achievement2.jpg" class="card-img-top" alt="Achievement 5">
                     <div class="card-body">
                         <h5 class="card-title">Biyanaam (bronze)</h5>
-                        <p class="card-text">Description of the achievement for the year 2022.</p>
+                        <!-- <p class="card-text">Description of the achievement for the year 2022.</p> -->
                     </div>
                 </div>
             </div>
@@ -154,7 +165,7 @@
                     <img src="image/achievement3.jpg" class="card-img-top" alt="Achievement 5">
                     <div class="card-body">
                         <h5 class="card-title">Dihanaam (gold)</h5>
-                        <p class="card-text">Description of the achievement for the year 2022.</p>
+                        <!-- <p class="card-text">Description of the achievement for the year 2022.</p> -->
                     </div>
                 </div>
             </div>
@@ -163,7 +174,7 @@
                     <img src="image/achievement4.jpg" class="card-img-top" alt="Achievement 5">
                     <div class="card-body">
                         <h5 class="card-title">Wall Magazine (silver)</h5>
-                        <p class="card-text">Description of the achievement for the year 2022.</p>
+                        <!-- <p class="card-text">Description of the achievement for the year 2022.</p> -->
                     </div>
                 </div>
             </div>
